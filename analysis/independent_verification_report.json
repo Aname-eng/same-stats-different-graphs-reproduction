@@ -1,0 +1,3055 @@
+{
+  "output\\evolution_seed_42": {
+    "run_directory": "output\\evolution_seed_42",
+    "git_commit_sha": "5930fb63126920adb5a3eadae62d27d01c4eae40",
+    "total_frames_audited": 5,
+    "all_frames_accepted": true,
+    "initial_frame": {
+      "file": "output\\evolution_seed_42\\snapshots\\frame_000000.csv",
+      "point_count": 568,
+      "expected_n": 568,
+      "count_ok": true,
+      "ids_identical_to_frame0": true,
+      "ids_strictly_unique": true,
+      "in_bounds_0_100": true,
+      "bounds": {
+        "x_min": 21.96261781502828,
+        "x_max": 98.69221320696572,
+        "y_min": 2.7848160304890826,
+        "y_max": 99.76166095294408
+      },
+      "stats5_ddof1": [
+        54.26327324000001,
+        47.83225282,
+        16.765142040000022,
+        26.935403489999985,
+        -0.06447185
+      ],
+      "stats5_ddof0": [
+        54.26327324000001,
+        47.83225282,
+        16.750377491085793,
+        26.911682302228137,
+        -0.06447185000000001
+      ],
+      "signature2_ddof1": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "signature2_ddof0": [
+        "54.26",
+        "47.83",
+        "16.75",
+        "26.91",
+        "-0.06"
+      ],
+      "ref_signature": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "max_stat_drift": 0.0048579599999776235,
+      "point_to_slot_dist": {
+        "mean": 2.9184387794991378,
+        "max": 11.201406774697432,
+        "p90": 6.188815999937512
+      },
+      "slot_to_point_dist": {
+        "mean": 4.250834841400516,
+        "max": 15.462874362929231,
+        "p90": 9.562294692043906
+      },
+      "layer_coverage": {
+        "nan": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 2.706374249628216,
+          "median_dist_to_point": 2.4248865446297763,
+          "p90_dist_to_point": 4.598296058903251,
+          "max_dist_to_point": 6.787292636770484
+        },
+        "kai": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 2.5236673064173534,
+          "median_dist_to_point": 2.4085323735727053,
+          "p90_dist_to_point": 5.049993656460838,
+          "max_dist_to_point": 5.812929646050523
+        },
+        "octagram": {
+          "target_slot_count": 140,
+          "mean_dist_to_point": 5.11346998290965,
+          "median_dist_to_point": 4.64791923688392,
+          "p90_dist_to_point": 9.747641455100077,
+          "max_dist_to_point": 11.57281950216329
+        },
+        "mid_ring": {
+          "target_slot_count": 68,
+          "mean_dist_to_point": 3.0668106849047985,
+          "median_dist_to_point": 2.8189814786185243,
+          "p90_dist_to_point": 6.483486450641748,
+          "max_dist_to_point": 9.616430354854659
+        },
+        "outer_ring": {
+          "target_slot_count": 240,
+          "mean_dist_to_point": 4.901011551549506,
+          "median_dist_to_point": 3.475092392079608,
+          "p90_dist_to_point": 10.398845301775733,
+          "max_dist_to_point": 15.462874362929231
+        }
+      },
+      "is_fully_accepted": true
+    },
+    "final_frame": {
+      "file": "output\\evolution_seed_42\\snapshots\\frame_060000.csv",
+      "point_count": 568,
+      "expected_n": 568,
+      "count_ok": true,
+      "ids_identical_to_frame0": true,
+      "ids_strictly_unique": true,
+      "in_bounds_0_100": true,
+      "bounds": {
+        "x_min": 12.460907856477585,
+        "x_max": 93.82639443124856,
+        "y_min": 1.6375179461408236,
+        "y_max": 88.08086437472261
+      },
+      "stats5_ddof1": [
+        54.26327324000002,
+        47.83225282,
+        16.765142040000008,
+        26.935403490000002,
+        -0.06447185000000001
+      ],
+      "stats5_ddof0": [
+        54.26327324000002,
+        47.83225282,
+        16.750377491085782,
+        26.911682302228154,
+        -0.06447185000000001
+      ],
+      "signature2_ddof1": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "signature2_ddof0": [
+        "54.26",
+        "47.83",
+        "16.75",
+        "26.91",
+        "-0.06"
+      ],
+      "ref_signature": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "max_stat_drift": 0.004857959999991834,
+      "point_to_slot_dist": {
+        "mean": 1.8752403225775363,
+        "max": 5.483819558108294,
+        "p90": 3.815170139065405
+      },
+      "slot_to_point_dist": {
+        "mean": 1.685728706206577,
+        "max": 4.944125564258612,
+        "p90": 3.0384534662867395
+      },
+      "layer_coverage": {
+        "nan": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 1.171605164365885,
+          "median_dist_to_point": 1.146028181686184,
+          "p90_dist_to_point": 1.8796417642620737,
+          "max_dist_to_point": 3.3248663110656365
+        },
+        "kai": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 1.541958881792192,
+          "median_dist_to_point": 1.5365007896507625,
+          "p90_dist_to_point": 2.592973698058418,
+          "max_dist_to_point": 3.8632021720620404
+        },
+        "octagram": {
+          "target_slot_count": 140,
+          "mean_dist_to_point": 1.7481198259442647,
+          "median_dist_to_point": 1.6731174779342821,
+          "p90_dist_to_point": 2.941247850437712,
+          "max_dist_to_point": 3.953460666666307
+        },
+        "mid_ring": {
+          "target_slot_count": 68,
+          "mean_dist_to_point": 2.0387884500833655,
+          "median_dist_to_point": 1.879703891199656,
+          "p90_dist_to_point": 4.073621641402289,
+          "max_dist_to_point": 4.944125564258612
+        },
+        "outer_ring": {
+          "target_slot_count": 240,
+          "mean_dist_to_point": 1.7137736338249385,
+          "median_dist_to_point": 1.5423793299639483,
+          "p90_dist_to_point": 3.1692601459256604,
+          "max_dist_to_point": 4.364019179860765
+        }
+      },
+      "is_fully_accepted": true
+    },
+    "frames": [
+      {
+        "file": "output\\evolution_seed_42\\snapshots\\frame_000000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 21.96261781502828,
+          "x_max": 98.69221320696572,
+          "y_min": 2.7848160304890826,
+          "y_max": 99.76166095294408
+        },
+        "stats5_ddof1": [
+          54.26327324000001,
+          47.83225282,
+          16.765142040000022,
+          26.935403489999985,
+          -0.06447185
+        ],
+        "stats5_ddof0": [
+          54.26327324000001,
+          47.83225282,
+          16.750377491085793,
+          26.911682302228137,
+          -0.06447185000000001
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.0048579599999776235,
+        "point_to_slot_dist": {
+          "mean": 2.9184387794991378,
+          "max": 11.201406774697432,
+          "p90": 6.188815999937512
+        },
+        "slot_to_point_dist": {
+          "mean": 4.250834841400516,
+          "max": 15.462874362929231,
+          "p90": 9.562294692043906
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 2.706374249628216,
+            "median_dist_to_point": 2.4248865446297763,
+            "p90_dist_to_point": 4.598296058903251,
+            "max_dist_to_point": 6.787292636770484
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 2.5236673064173534,
+            "median_dist_to_point": 2.4085323735727053,
+            "p90_dist_to_point": 5.049993656460838,
+            "max_dist_to_point": 5.812929646050523
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 5.11346998290965,
+            "median_dist_to_point": 4.64791923688392,
+            "p90_dist_to_point": 9.747641455100077,
+            "max_dist_to_point": 11.57281950216329
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 3.0668106849047985,
+            "median_dist_to_point": 2.8189814786185243,
+            "p90_dist_to_point": 6.483486450641748,
+            "max_dist_to_point": 9.616430354854659
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 4.901011551549506,
+            "median_dist_to_point": 3.475092392079608,
+            "p90_dist_to_point": 10.398845301775733,
+            "max_dist_to_point": 15.462874362929231
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_42\\snapshots\\frame_015000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 10.360660889802592,
+          "x_max": 93.6267018089896,
+          "y_min": 0.670570139878067,
+          "y_max": 90.83488262653523
+        },
+        "stats5_ddof1": [
+          54.26327324000001,
+          47.83225282,
+          16.76514204000001,
+          26.93540348999999,
+          -0.06447185000000002
+        ],
+        "stats5_ddof0": [
+          54.26327324000001,
+          47.83225282,
+          16.750377491085786,
+          26.911682302228144,
+          -0.06447185000000002
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.004857959999988282,
+        "point_to_slot_dist": {
+          "mean": 1.9825274485443527,
+          "max": 6.462132167708745,
+          "p90": 3.984049037267209
+        },
+        "slot_to_point_dist": {
+          "mean": 1.5415194791285345,
+          "max": 4.7444458232221995,
+          "p90": 2.909186025026926
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.2562125028970061,
+            "median_dist_to_point": 1.2837158278888379,
+            "p90_dist_to_point": 1.8887690598751123,
+            "max_dist_to_point": 3.009377942831161
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.4165898226246147,
+            "median_dist_to_point": 1.2796743192425968,
+            "p90_dist_to_point": 2.48664998036983,
+            "max_dist_to_point": 3.569294764916203
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.6860397813295862,
+            "median_dist_to_point": 1.4856131945180029,
+            "p90_dist_to_point": 3.1512676401012616,
+            "max_dist_to_point": 4.4790206767580445
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.0523051682121807,
+            "median_dist_to_point": 1.9071392113014696,
+            "p90_dist_to_point": 3.5183072162916806,
+            "max_dist_to_point": 4.7444458232221995
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.415052515788083,
+            "median_dist_to_point": 1.1426019025133947,
+            "p90_dist_to_point": 2.7915068369652376,
+            "max_dist_to_point": 4.201571545300094
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_42\\snapshots\\frame_030000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 11.28606993947654,
+          "x_max": 93.3998450999737,
+          "y_min": 0.8226322749320213,
+          "y_max": 90.23081906579208
+        },
+        "stats5_ddof1": [
+          54.26327324000002,
+          47.83225282,
+          16.765142040000022,
+          26.935403489999988,
+          -0.06447184999999987
+        ],
+        "stats5_ddof0": [
+          54.26327324000002,
+          47.83225282,
+          16.750377491085796,
+          26.91168230222814,
+          -0.06447184999999987
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.0048579599999776235,
+        "point_to_slot_dist": {
+          "mean": 1.8758889171443733,
+          "max": 6.316674772093219,
+          "p90": 3.6723736562590203
+        },
+        "slot_to_point_dist": {
+          "mean": 1.5234956524735515,
+          "max": 5.549526585188138,
+          "p90": 2.9136652241285312
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.1527218301103745,
+            "median_dist_to_point": 0.9755473958500841,
+            "p90_dist_to_point": 2.137173329462057,
+            "max_dist_to_point": 3.7791963756954576
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.3818039606125452,
+            "median_dist_to_point": 1.1401260115219314,
+            "p90_dist_to_point": 2.3963426236689864,
+            "max_dist_to_point": 3.5888403240955835
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.5393905728447517,
+            "median_dist_to_point": 1.4048407802811709,
+            "p90_dist_to_point": 2.705177883169675,
+            "max_dist_to_point": 4.499725563351866
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.0454485204048014,
+            "median_dist_to_point": 1.7728215508861296,
+            "p90_dist_to_point": 4.09848867313405,
+            "max_dist_to_point": 5.549526585188138
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.4944533482325433,
+            "median_dist_to_point": 1.2329147864134073,
+            "p90_dist_to_point": 2.946941115691391,
+            "max_dist_to_point": 3.9738327222205805
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_42\\snapshots\\frame_045000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 13.651539495864904,
+          "x_max": 93.33301993604914,
+          "y_min": 1.3537879292778527,
+          "y_max": 89.91132619043019
+        },
+        "stats5_ddof1": [
+          54.26327324000002,
+          47.83225282,
+          16.765142040000026,
+          26.93540348999997,
+          -0.06447184999999986
+        ],
+        "stats5_ddof0": [
+          54.26327324000002,
+          47.83225282,
+          16.7503774910858,
+          26.911682302228122,
+          -0.06447184999999986
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.004857959999974071,
+        "point_to_slot_dist": {
+          "mean": 1.8962527553811568,
+          "max": 6.2044445759459625,
+          "p90": 3.6694135827297543
+        },
+        "slot_to_point_dist": {
+          "mean": 1.633858222729994,
+          "max": 4.527587596470406,
+          "p90": 2.993045797156628
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.3427844462512557,
+            "median_dist_to_point": 1.1678262889858533,
+            "p90_dist_to_point": 2.7580676781110403,
+            "max_dist_to_point": 3.278853260172054
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.5083738312469708,
+            "median_dist_to_point": 1.3230154355352948,
+            "p90_dist_to_point": 2.7672274452870025,
+            "max_dist_to_point": 3.5034970641362992
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.7569233898430707,
+            "median_dist_to_point": 1.6825629832191265,
+            "p90_dist_to_point": 2.9926760235747305,
+            "max_dist_to_point": 4.162928708392034
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 1.9687288232765052,
+            "median_dist_to_point": 1.804701841565092,
+            "p90_dist_to_point": 3.850259209626215,
+            "max_dist_to_point": 4.510093055238455
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.5713297470829617,
+            "median_dist_to_point": 1.4303982055695486,
+            "p90_dist_to_point": 3.0323986587976677,
+            "max_dist_to_point": 4.527587596470406
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_42\\snapshots\\frame_060000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 12.460907856477585,
+          "x_max": 93.82639443124856,
+          "y_min": 1.6375179461408236,
+          "y_max": 88.08086437472261
+        },
+        "stats5_ddof1": [
+          54.26327324000002,
+          47.83225282,
+          16.765142040000008,
+          26.935403490000002,
+          -0.06447185000000001
+        ],
+        "stats5_ddof0": [
+          54.26327324000002,
+          47.83225282,
+          16.750377491085782,
+          26.911682302228154,
+          -0.06447185000000001
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.004857959999991834,
+        "point_to_slot_dist": {
+          "mean": 1.8752403225775363,
+          "max": 5.483819558108294,
+          "p90": 3.815170139065405
+        },
+        "slot_to_point_dist": {
+          "mean": 1.685728706206577,
+          "max": 4.944125564258612,
+          "p90": 3.0384534662867395
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.171605164365885,
+            "median_dist_to_point": 1.146028181686184,
+            "p90_dist_to_point": 1.8796417642620737,
+            "max_dist_to_point": 3.3248663110656365
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.541958881792192,
+            "median_dist_to_point": 1.5365007896507625,
+            "p90_dist_to_point": 2.592973698058418,
+            "max_dist_to_point": 3.8632021720620404
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.7481198259442647,
+            "median_dist_to_point": 1.6731174779342821,
+            "p90_dist_to_point": 2.941247850437712,
+            "max_dist_to_point": 3.953460666666307
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.0387884500833655,
+            "median_dist_to_point": 1.879703891199656,
+            "p90_dist_to_point": 4.073621641402289,
+            "max_dist_to_point": 4.944125564258612
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.7137736338249385,
+            "median_dist_to_point": 1.5423793299639483,
+            "p90_dist_to_point": 3.1692601459256604,
+            "max_dist_to_point": 4.364019179860765
+          }
+        },
+        "is_fully_accepted": true
+      }
+    ],
+    "metrics_summary": {
+      "random_seed": 42,
+      "n_points": 568,
+      "total_steps": 60000,
+      "total_time_seconds": 18.0,
+      "final_energy_mse": 11.852,
+      "best_energy_mse": 11.852,
+      "final_stats5": [
+        54.26327323999993,
+        47.83225282000004,
+        16.76514204000002,
+        26.935403490000006,
+        -0.06447184999999996
+      ],
+      "final_signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "accepted_proposals": 56787,
+      "overall_acceptance_rate": 0.9465,
+      "stagnation_events": [
+        {
+          "step": 20000,
+          "cause": "Relative improvement -0.0011 < 0.005 over 4000 steps",
+          "action": "reassign + boost angle exploration + soft reheat"
+        },
+        {
+          "step": 28000,
+          "cause": "Relative improvement 0.0024 < 0.005 over 4000 steps",
+          "action": "reassign + boost angle exploration + soft reheat"
+        },
+        {
+          "step": 36000,
+          "cause": "Relative improvement -0.0100 < 0.005 over 4000 steps",
+          "action": "reassign + boost angle exploration + soft reheat"
+        }
+      ],
+      "final_layer_metrics": {
+        "nan": {
+          "count": 60,
+          "mean_dist": 3.3565276583364336,
+          "median_dist": 3.3993369277431125,
+          "max_dist": 3.917818838667805,
+          "p90_dist": 3.729826715822598
+        },
+        "kai": {
+          "count": 60,
+          "mean_dist": 3.3304436821924694,
+          "median_dist": 3.325452630160719,
+          "max_dist": 4.148548428125708,
+          "p90_dist": 3.8372043643896374
+        },
+        "octagram": {
+          "count": 140,
+          "mean_dist": 3.2069740866331635,
+          "median_dist": 3.063668128432673,
+          "max_dist": 4.805014615284321,
+          "p90_dist": 4.343244361810006
+        },
+        "mid_ring": {
+          "count": 68,
+          "mean_dist": 3.188289486566307,
+          "median_dist": 2.713003871140258,
+          "max_dist": 5.418898043198964,
+          "p90_dist": 4.811735149221122
+        },
+        "outer_ring": {
+          "count": 240,
+          "mean_dist": 3.299826518507278,
+          "median_dist": 3.1203161579584036,
+          "max_dist": 5.594735719978498,
+          "p90_dist": 4.944768834073787
+        }
+      },
+      "history": [
+        {
+          "step": 15000,
+          "elapsed_sec": 5.35,
+          "energy_mse": 13.748,
+          "accepted_count": 14565,
+          "acceptance_rate": 0.971,
+          "stats5": [
+            54.26327324000002,
+            47.83225282000001,
+            16.76514204000001,
+            26.935403489999995,
+            -0.06447184999999996
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.4613962023070135,
+              "median_dist": 3.504803942718773,
+              "max_dist": 5.779550055516443,
+              "p90_dist": 4.477137281670229
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.5646820932139107,
+              "median_dist": 3.600005312839159,
+              "max_dist": 5.773805112213619,
+              "p90_dist": 4.406643088884719
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.3220071353114418,
+              "median_dist": 3.2257003137838094,
+              "max_dist": 6.511953249444081,
+              "p90_dist": 4.5989543969027595
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.6351498124773416,
+              "median_dist": 3.3802037824278535,
+              "max_dist": 7.4049291292955175,
+              "p90_dist": 5.413930438853993
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.4430689308495723,
+              "median_dist": 3.20188873400016,
+              "max_dist": 7.25346497454001,
+              "p90_dist": 5.6601765898559
+            }
+          }
+        },
+        {
+          "step": 30000,
+          "elapsed_sec": 9.92,
+          "energy_mse": 13.2449,
+          "accepted_count": 28980,
+          "acceptance_rate": 0.966,
+          "stats5": [
+            54.26327323999998,
+            47.83225282000001,
+            16.765142040000022,
+            26.93540348999999,
+            -0.06447184999999989
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.5155195692660586,
+              "median_dist": 3.4441329042225375,
+              "max_dist": 6.503963020309975,
+              "p90_dist": 4.516179762222002
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.678253621068071,
+              "median_dist": 3.607648540214508,
+              "max_dist": 7.2663874624587965,
+              "p90_dist": 4.865654614811002
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.2409904082655054,
+              "median_dist": 3.100712695305955,
+              "max_dist": 7.485604936756739,
+              "p90_dist": 4.712018792027281
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.5042417875200265,
+              "median_dist": 3.41609072011486,
+              "max_dist": 6.661178094644253,
+              "p90_dist": 5.415699157624208
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.3446429906603017,
+              "median_dist": 3.462030557497133,
+              "max_dist": 7.1629980026336755,
+              "p90_dist": 5.184347073370104
+            }
+          }
+        },
+        {
+          "step": 45000,
+          "elapsed_sec": 13.98,
+          "energy_mse": 12.4211,
+          "accepted_count": 43109,
+          "acceptance_rate": 0.958,
+          "stats5": [
+            54.263273240000025,
+            47.832252820000015,
+            16.765142040000026,
+            26.935403489999974,
+            -0.06447184999999987
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.6366461649827992,
+              "median_dist": 3.4666809896245967,
+              "max_dist": 6.007646066362887,
+              "p90_dist": 5.069469227313867
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.514315764038713,
+              "median_dist": 3.4194743424640253,
+              "max_dist": 5.380105021216122,
+              "p90_dist": 4.376965239816226
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.1820791003829525,
+              "median_dist": 2.979328720494003,
+              "max_dist": 5.5091862775250915,
+              "p90_dist": 4.532581800739883
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.1393757215657936,
+              "median_dist": 2.76693618227943,
+              "max_dist": 5.403805401275437,
+              "p90_dist": 4.850546749802663
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.3218002681371077,
+              "median_dist": 3.4405677488735162,
+              "max_dist": 6.225134736866631,
+              "p90_dist": 5.093937184025527
+            }
+          }
+        },
+        {
+          "step": 60000,
+          "elapsed_sec": 17.6,
+          "energy_mse": 11.852,
+          "accepted_count": 56787,
+          "acceptance_rate": 0.9465,
+          "stats5": [
+            54.26327323999993,
+            47.83225282000004,
+            16.76514204000002,
+            26.935403490000006,
+            -0.06447184999999996
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.3565276583364336,
+              "median_dist": 3.3993369277431125,
+              "max_dist": 3.917818838667805,
+              "p90_dist": 3.729826715822598
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.3304436821924694,
+              "median_dist": 3.325452630160719,
+              "max_dist": 4.148548428125708,
+              "p90_dist": 3.8372043643896374
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.2069740866331635,
+              "median_dist": 3.063668128432673,
+              "max_dist": 4.805014615284321,
+              "p90_dist": 4.343244361810006
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.188289486566307,
+              "median_dist": 2.713003871140258,
+              "max_dist": 5.418898043198964,
+              "p90_dist": 4.811735149221122
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.299826518507278,
+              "median_dist": 3.1203161579584036,
+              "max_dist": 5.594735719978498,
+              "p90_dist": 4.944768834073787
+            }
+          }
+        }
+      ]
+    }
+  },
+  "output\\evolution_seed_101": {
+    "run_directory": "output\\evolution_seed_101",
+    "git_commit_sha": "5930fb63126920adb5a3eadae62d27d01c4eae40",
+    "total_frames_audited": 5,
+    "all_frames_accepted": true,
+    "initial_frame": {
+      "file": "output\\evolution_seed_101\\snapshots\\frame_000000.csv",
+      "point_count": 568,
+      "expected_n": 568,
+      "count_ok": true,
+      "ids_identical_to_frame0": true,
+      "ids_strictly_unique": true,
+      "in_bounds_0_100": true,
+      "bounds": {
+        "x_min": 21.96261781502828,
+        "x_max": 98.69221320696572,
+        "y_min": 2.7848160304890826,
+        "y_max": 99.76166095294408
+      },
+      "stats5_ddof1": [
+        54.26327324000001,
+        47.83225282,
+        16.765142040000022,
+        26.935403489999985,
+        -0.06447185
+      ],
+      "stats5_ddof0": [
+        54.26327324000001,
+        47.83225282,
+        16.750377491085793,
+        26.911682302228137,
+        -0.06447185000000001
+      ],
+      "signature2_ddof1": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "signature2_ddof0": [
+        "54.26",
+        "47.83",
+        "16.75",
+        "26.91",
+        "-0.06"
+      ],
+      "ref_signature": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "max_stat_drift": 0.0048579599999776235,
+      "point_to_slot_dist": {
+        "mean": 2.9184387794991378,
+        "max": 11.201406774697432,
+        "p90": 6.188815999937512
+      },
+      "slot_to_point_dist": {
+        "mean": 4.250834841400516,
+        "max": 15.462874362929231,
+        "p90": 9.562294692043906
+      },
+      "layer_coverage": {
+        "nan": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 2.706374249628216,
+          "median_dist_to_point": 2.4248865446297763,
+          "p90_dist_to_point": 4.598296058903251,
+          "max_dist_to_point": 6.787292636770484
+        },
+        "kai": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 2.5236673064173534,
+          "median_dist_to_point": 2.4085323735727053,
+          "p90_dist_to_point": 5.049993656460838,
+          "max_dist_to_point": 5.812929646050523
+        },
+        "octagram": {
+          "target_slot_count": 140,
+          "mean_dist_to_point": 5.11346998290965,
+          "median_dist_to_point": 4.64791923688392,
+          "p90_dist_to_point": 9.747641455100077,
+          "max_dist_to_point": 11.57281950216329
+        },
+        "mid_ring": {
+          "target_slot_count": 68,
+          "mean_dist_to_point": 3.0668106849047985,
+          "median_dist_to_point": 2.8189814786185243,
+          "p90_dist_to_point": 6.483486450641748,
+          "max_dist_to_point": 9.616430354854659
+        },
+        "outer_ring": {
+          "target_slot_count": 240,
+          "mean_dist_to_point": 4.901011551549506,
+          "median_dist_to_point": 3.475092392079608,
+          "p90_dist_to_point": 10.398845301775733,
+          "max_dist_to_point": 15.462874362929231
+        }
+      },
+      "is_fully_accepted": true
+    },
+    "final_frame": {
+      "file": "output\\evolution_seed_101\\snapshots\\frame_060000.csv",
+      "point_count": 568,
+      "expected_n": 568,
+      "count_ok": true,
+      "ids_identical_to_frame0": true,
+      "ids_strictly_unique": true,
+      "in_bounds_0_100": true,
+      "bounds": {
+        "x_min": 13.9259287271755,
+        "x_max": 92.98187360952252,
+        "y_min": 1.4855371692380948,
+        "y_max": 87.55676919409626
+      },
+      "stats5_ddof1": [
+        54.263273240000004,
+        47.83225282,
+        16.76514204000001,
+        26.935403489999995,
+        -0.06447184999999989
+      ],
+      "stats5_ddof0": [
+        54.263273240000004,
+        47.83225282,
+        16.750377491085786,
+        26.91168230222815,
+        -0.06447184999999987
+      ],
+      "signature2_ddof1": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "signature2_ddof0": [
+        "54.26",
+        "47.83",
+        "16.75",
+        "26.91",
+        "-0.06"
+      ],
+      "ref_signature": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "max_stat_drift": 0.004857959999988282,
+      "point_to_slot_dist": {
+        "mean": 1.90966288462971,
+        "max": 5.685984181448373,
+        "p90": 3.819641830796171
+      },
+      "slot_to_point_dist": {
+        "mean": 1.7103989240091135,
+        "max": 4.575268944097565,
+        "p90": 3.017383961343105
+      },
+      "layer_coverage": {
+        "nan": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 1.1967107692295658,
+          "median_dist_to_point": 1.1367193282077188,
+          "p90_dist_to_point": 2.0184460031733518,
+          "max_dist_to_point": 2.908518026935283
+        },
+        "kai": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 1.5615228554254352,
+          "median_dist_to_point": 1.5270843747082972,
+          "p90_dist_to_point": 2.5148282172503924,
+          "max_dist_to_point": 3.3490305226649943
+        },
+        "octagram": {
+          "target_slot_count": 140,
+          "mean_dist_to_point": 1.7239440376893815,
+          "median_dist_to_point": 1.6459677498955272,
+          "p90_dist_to_point": 2.9268730703423502,
+          "max_dist_to_point": 4.308062322426215
+        },
+        "mid_ring": {
+          "target_slot_count": 68,
+          "mean_dist_to_point": 2.0597486319359284,
+          "median_dist_to_point": 1.9578335296168072,
+          "p90_dist_to_point": 3.8288354435886034,
+          "max_dist_to_point": 4.575268944097565
+        },
+        "outer_ring": {
+          "target_slot_count": 240,
+          "mean_dist_to_point": 1.7691562462904997,
+          "median_dist_to_point": 1.6313583415433903,
+          "p90_dist_to_point": 3.15200113773613,
+          "max_dist_to_point": 4.509794179569494
+        }
+      },
+      "is_fully_accepted": true
+    },
+    "frames": [
+      {
+        "file": "output\\evolution_seed_101\\snapshots\\frame_000000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 21.96261781502828,
+          "x_max": 98.69221320696572,
+          "y_min": 2.7848160304890826,
+          "y_max": 99.76166095294408
+        },
+        "stats5_ddof1": [
+          54.26327324000001,
+          47.83225282,
+          16.765142040000022,
+          26.935403489999985,
+          -0.06447185
+        ],
+        "stats5_ddof0": [
+          54.26327324000001,
+          47.83225282,
+          16.750377491085793,
+          26.911682302228137,
+          -0.06447185000000001
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.0048579599999776235,
+        "point_to_slot_dist": {
+          "mean": 2.9184387794991378,
+          "max": 11.201406774697432,
+          "p90": 6.188815999937512
+        },
+        "slot_to_point_dist": {
+          "mean": 4.250834841400516,
+          "max": 15.462874362929231,
+          "p90": 9.562294692043906
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 2.706374249628216,
+            "median_dist_to_point": 2.4248865446297763,
+            "p90_dist_to_point": 4.598296058903251,
+            "max_dist_to_point": 6.787292636770484
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 2.5236673064173534,
+            "median_dist_to_point": 2.4085323735727053,
+            "p90_dist_to_point": 5.049993656460838,
+            "max_dist_to_point": 5.812929646050523
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 5.11346998290965,
+            "median_dist_to_point": 4.64791923688392,
+            "p90_dist_to_point": 9.747641455100077,
+            "max_dist_to_point": 11.57281950216329
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 3.0668106849047985,
+            "median_dist_to_point": 2.8189814786185243,
+            "p90_dist_to_point": 6.483486450641748,
+            "max_dist_to_point": 9.616430354854659
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 4.901011551549506,
+            "median_dist_to_point": 3.475092392079608,
+            "p90_dist_to_point": 10.398845301775733,
+            "max_dist_to_point": 15.462874362929231
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_101\\snapshots\\frame_015000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 11.581569088352868,
+          "x_max": 94.42779005246796,
+          "y_min": 0.5374461999609099,
+          "y_max": 92.6408781427159
+        },
+        "stats5_ddof1": [
+          54.26327324000002,
+          47.83225282000001,
+          16.76514204000001,
+          26.93540348999998,
+          -0.06447184999999978
+        ],
+        "stats5_ddof0": [
+          54.26327324000002,
+          47.83225282000001,
+          16.750377491085786,
+          26.911682302228133,
+          -0.06447184999999978
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.004857959999988282,
+        "point_to_slot_dist": {
+          "mean": 1.9434606557829972,
+          "max": 6.373858473550826,
+          "p90": 3.6908729574420107
+        },
+        "slot_to_point_dist": {
+          "mean": 1.5147258213200796,
+          "max": 5.044862885238649,
+          "p90": 2.7440168704098875
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.1540466588825216,
+            "median_dist_to_point": 1.166059178868612,
+            "p90_dist_to_point": 1.8269046187263946,
+            "max_dist_to_point": 3.2228702623729957
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.2638862863918479,
+            "median_dist_to_point": 1.2118233259276494,
+            "p90_dist_to_point": 2.2505341213242276,
+            "max_dist_to_point": 3.2172939034013495
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.5190969173824507,
+            "median_dist_to_point": 1.3722269359513177,
+            "p90_dist_to_point": 2.6836449478954267,
+            "max_dist_to_point": 5.044862885238649
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.0499484866524584,
+            "median_dist_to_point": 1.8089022978491087,
+            "p90_dist_to_point": 3.6311360051481767,
+            "max_dist_to_point": 4.865292518086528
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.5134092677809703,
+            "median_dist_to_point": 1.376437752479138,
+            "p90_dist_to_point": 2.7263252686469173,
+            "max_dist_to_point": 3.9686262438675226
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_101\\snapshots\\frame_030000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 11.862133488683098,
+          "x_max": 93.06885170105376,
+          "y_min": 0.5719567431280623,
+          "y_max": 89.31308256908991
+        },
+        "stats5_ddof1": [
+          54.26327324000001,
+          47.83225282,
+          16.765142040000008,
+          26.935403489999995,
+          -0.0644718499999998
+        ],
+        "stats5_ddof0": [
+          54.26327324000001,
+          47.83225282,
+          16.750377491085782,
+          26.91168230222815,
+          -0.06447184999999979
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.004857959999991834,
+        "point_to_slot_dist": {
+          "mean": 1.9392417371162411,
+          "max": 7.188716308278904,
+          "p90": 3.849046628704261
+        },
+        "slot_to_point_dist": {
+          "mean": 1.5048951951961635,
+          "max": 4.937897469560081,
+          "p90": 2.7960911560355752
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.105084296710744,
+            "median_dist_to_point": 0.999454802731921,
+            "p90_dist_to_point": 2.018855901037216,
+            "max_dist_to_point": 2.4716201173643313
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.3684880558515224,
+            "median_dist_to_point": 1.3681928941046844,
+            "p90_dist_to_point": 2.191806505790272,
+            "max_dist_to_point": 3.011417752325609
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.4683119919119698,
+            "median_dist_to_point": 1.3205736025950945,
+            "p90_dist_to_point": 2.7919211794876797,
+            "max_dist_to_point": 4.648083196652132
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.0726411486652165,
+            "median_dist_to_point": 1.8765185150596855,
+            "p90_dist_to_point": 3.399284281846475,
+            "max_dist_to_point": 4.937897469560081
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.49942855308656,
+            "median_dist_to_point": 1.3291585257999428,
+            "p90_dist_to_point": 2.866201607817439,
+            "max_dist_to_point": 4.240335496639301
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_101\\snapshots\\frame_045000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 13.490482742320424,
+          "x_max": 93.90478199173704,
+          "y_min": 1.273213733584179,
+          "y_max": 91.06400883647652
+        },
+        "stats5_ddof1": [
+          54.26327324000002,
+          47.83225282,
+          16.765142040000015,
+          26.93540348999999,
+          -0.06447184999999987
+        ],
+        "stats5_ddof0": [
+          54.26327324000002,
+          47.83225282,
+          16.75037749108579,
+          26.911682302228144,
+          -0.06447184999999987
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.004857959999984729,
+        "point_to_slot_dist": {
+          "mean": 1.9044304428381642,
+          "max": 6.286523737953033,
+          "p90": 3.645301788186344
+        },
+        "slot_to_point_dist": {
+          "mean": 1.5889084223846113,
+          "max": 4.584694084207002,
+          "p90": 2.8794114269497935
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.2022891527952804,
+            "median_dist_to_point": 1.1698787470260186,
+            "p90_dist_to_point": 2.0935947200173013,
+            "max_dist_to_point": 2.607008486784739
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.5612597101600505,
+            "median_dist_to_point": 1.4445219980850503,
+            "p90_dist_to_point": 2.682879429057129,
+            "max_dist_to_point": 3.8080818869090782
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.6480195126981048,
+            "median_dist_to_point": 1.542985822692212,
+            "p90_dist_to_point": 2.9243423130375836,
+            "max_dist_to_point": 4.584694084207002
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.0054594007650555,
+            "median_dist_to_point": 1.8829774555293293,
+            "p90_dist_to_point": 3.6957259664138604,
+            "max_dist_to_point": 4.484572594904918
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.5399711712807538,
+            "median_dist_to_point": 1.4310856395700484,
+            "p90_dist_to_point": 2.797645219878853,
+            "max_dist_to_point": 3.5593052258126208
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_101\\snapshots\\frame_060000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 13.9259287271755,
+          "x_max": 92.98187360952252,
+          "y_min": 1.4855371692380948,
+          "y_max": 87.55676919409626
+        },
+        "stats5_ddof1": [
+          54.263273240000004,
+          47.83225282,
+          16.76514204000001,
+          26.935403489999995,
+          -0.06447184999999989
+        ],
+        "stats5_ddof0": [
+          54.263273240000004,
+          47.83225282,
+          16.750377491085786,
+          26.91168230222815,
+          -0.06447184999999987
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.004857959999988282,
+        "point_to_slot_dist": {
+          "mean": 1.90966288462971,
+          "max": 5.685984181448373,
+          "p90": 3.819641830796171
+        },
+        "slot_to_point_dist": {
+          "mean": 1.7103989240091135,
+          "max": 4.575268944097565,
+          "p90": 3.017383961343105
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.1967107692295658,
+            "median_dist_to_point": 1.1367193282077188,
+            "p90_dist_to_point": 2.0184460031733518,
+            "max_dist_to_point": 2.908518026935283
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.5615228554254352,
+            "median_dist_to_point": 1.5270843747082972,
+            "p90_dist_to_point": 2.5148282172503924,
+            "max_dist_to_point": 3.3490305226649943
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.7239440376893815,
+            "median_dist_to_point": 1.6459677498955272,
+            "p90_dist_to_point": 2.9268730703423502,
+            "max_dist_to_point": 4.308062322426215
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.0597486319359284,
+            "median_dist_to_point": 1.9578335296168072,
+            "p90_dist_to_point": 3.8288354435886034,
+            "max_dist_to_point": 4.575268944097565
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.7691562462904997,
+            "median_dist_to_point": 1.6313583415433903,
+            "p90_dist_to_point": 3.15200113773613,
+            "max_dist_to_point": 4.509794179569494
+          }
+        },
+        "is_fully_accepted": true
+      }
+    ],
+    "metrics_summary": {
+      "random_seed": 101,
+      "n_points": 568,
+      "total_steps": 60000,
+      "total_time_seconds": 18.18,
+      "final_energy_mse": 11.8088,
+      "best_energy_mse": 11.804,
+      "final_stats5": [
+        54.26327323999999,
+        47.83225282000001,
+        16.76514204000001,
+        26.935403490000002,
+        -0.06447184999999986
+      ],
+      "final_signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "accepted_proposals": 56573,
+      "overall_acceptance_rate": 0.9429,
+      "stagnation_events": [
+        {
+          "step": 20000,
+          "cause": "Relative improvement 0.0046 < 0.005 over 4000 steps",
+          "action": "reassign + boost angle exploration + soft reheat"
+        },
+        {
+          "step": 24000,
+          "cause": "Relative improvement -0.0247 < 0.005 over 4000 steps",
+          "action": "reassign + boost angle exploration + soft reheat"
+        }
+      ],
+      "final_layer_metrics": {
+        "nan": {
+          "count": 60,
+          "mean_dist": 3.2966491974717527,
+          "median_dist": 3.30093943116818,
+          "max_dist": 3.9874552053274566,
+          "p90_dist": 3.8131603248866694
+        },
+        "kai": {
+          "count": 60,
+          "mean_dist": 3.3895024617844114,
+          "median_dist": 3.475349859386925,
+          "max_dist": 4.082565391743348,
+          "p90_dist": 3.7796963808669584
+        },
+        "octagram": {
+          "count": 140,
+          "mean_dist": 3.1867050081418404,
+          "median_dist": 2.9527145248059687,
+          "max_dist": 4.6043365260514655,
+          "p90_dist": 4.232164133709288
+        },
+        "mid_ring": {
+          "count": 68,
+          "mean_dist": 3.0931786792032625,
+          "median_dist": 2.6265333816561984,
+          "max_dist": 5.331370023894525,
+          "p90_dist": 4.61504435390038
+        },
+        "outer_ring": {
+          "count": 240,
+          "mean_dist": 3.324960060569439,
+          "median_dist": 3.1403280786796905,
+          "max_dist": 5.701608153619578,
+          "p90_dist": 4.9890785649511935
+        }
+      },
+      "history": [
+        {
+          "step": 15000,
+          "elapsed_sec": 5.05,
+          "energy_mse": 14.0586,
+          "accepted_count": 14524,
+          "acceptance_rate": 0.9683,
+          "stats5": [
+            54.263273240000046,
+            47.83225281999994,
+            16.765142040000008,
+            26.93540348999999,
+            -0.06447184999999983
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.7613807108147563,
+              "median_dist": 3.8566217094421686,
+              "max_dist": 6.358006566873006,
+              "p90_dist": 5.035286307009402
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.44713712738322,
+              "median_dist": 3.36840338632603,
+              "max_dist": 6.5449102329812865,
+              "p90_dist": 4.530311923774198
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.3478751891626337,
+              "median_dist": 3.20370159997558,
+              "max_dist": 8.698350517459536,
+              "p90_dist": 5.02321388442034
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.370398767376096,
+              "median_dist": 3.029753030290964,
+              "max_dist": 6.125131526069556,
+              "p90_dist": 5.107683738734094
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.518351752099726,
+              "median_dist": 3.331623750904951,
+              "max_dist": 7.574567913878708,
+              "p90_dist": 5.614205141052791
+            }
+          }
+        },
+        {
+          "step": 30000,
+          "elapsed_sec": 9.64,
+          "energy_mse": 13.4893,
+          "accepted_count": 28948,
+          "acceptance_rate": 0.9649,
+          "stats5": [
+            54.26327324,
+            47.83225281999999,
+            16.76514204000001,
+            26.935403489999995,
+            -0.06447184999999978
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.419620114183589,
+              "median_dist": 3.5876241913635685,
+              "max_dist": 5.985544231932906,
+              "p90_dist": 4.348827148156322
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.4288726202725073,
+              "median_dist": 3.4237578241498308,
+              "max_dist": 6.319369886319505,
+              "p90_dist": 4.545027651172005
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.2568082744315485,
+              "median_dist": 3.137757210486142,
+              "max_dist": 9.1154200194956,
+              "p90_dist": 4.804236661932662
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.323975149451879,
+              "median_dist": 2.967832814856088,
+              "max_dist": 6.759756986877602,
+              "p90_dist": 5.112462945942575
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.5196870691421163,
+              "median_dist": 3.485979584321707,
+              "max_dist": 7.507632532202434,
+              "p90_dist": 5.424278846930533
+            }
+          }
+        },
+        {
+          "step": 45000,
+          "elapsed_sec": 13.59,
+          "energy_mse": 12.4472,
+          "accepted_count": 43040,
+          "acceptance_rate": 0.9564,
+          "stats5": [
+            54.26327324000007,
+            47.83225282000001,
+            16.765142040000015,
+            26.935403489999988,
+            -0.06447184999999989
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.293724460650748,
+              "median_dist": 3.2680410821058543,
+              "max_dist": 5.642965604139864,
+              "p90_dist": 4.094898924730254
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.4716329819154113,
+              "median_dist": 3.5209521260500303,
+              "max_dist": 4.770188756008307,
+              "p90_dist": 4.258142919348368
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.2700731032864376,
+              "median_dist": 3.119705045567558,
+              "max_dist": 6.100670714737257,
+              "p90_dist": 4.458970254979239
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.1734680157242297,
+              "median_dist": 3.0410886249710725,
+              "max_dist": 5.566438594138753,
+              "p90_dist": 4.896498026471392
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.3554127279889228,
+              "median_dist": 3.1288106439575403,
+              "max_dist": 6.286523737953033,
+              "p90_dist": 5.1890122725064
+            }
+          }
+        },
+        {
+          "step": 60000,
+          "elapsed_sec": 17.8,
+          "energy_mse": 11.8088,
+          "accepted_count": 56573,
+          "acceptance_rate": 0.9429,
+          "stats5": [
+            54.26327323999999,
+            47.83225282000001,
+            16.76514204000001,
+            26.935403490000002,
+            -0.06447184999999986
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.2966491974717527,
+              "median_dist": 3.30093943116818,
+              "max_dist": 3.9874552053274566,
+              "p90_dist": 3.8131603248866694
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.3895024617844114,
+              "median_dist": 3.475349859386925,
+              "max_dist": 4.082565391743348,
+              "p90_dist": 3.7796963808669584
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.1867050081418404,
+              "median_dist": 2.9527145248059687,
+              "max_dist": 4.6043365260514655,
+              "p90_dist": 4.232164133709288
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.0931786792032625,
+              "median_dist": 2.6265333816561984,
+              "max_dist": 5.331370023894525,
+              "p90_dist": 4.61504435390038
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.324960060569439,
+              "median_dist": 3.1403280786796905,
+              "max_dist": 5.701608153619578,
+              "p90_dist": 4.9890785649511935
+            }
+          }
+        }
+      ]
+    }
+  },
+  "output\\evolution_seed_20260915": {
+    "run_directory": "output\\evolution_seed_20260915",
+    "git_commit_sha": "5930fb63126920adb5a3eadae62d27d01c4eae40",
+    "total_frames_audited": 5,
+    "all_frames_accepted": true,
+    "initial_frame": {
+      "file": "output\\evolution_seed_20260915\\snapshots\\frame_000000.csv",
+      "point_count": 568,
+      "expected_n": 568,
+      "count_ok": true,
+      "ids_identical_to_frame0": true,
+      "ids_strictly_unique": true,
+      "in_bounds_0_100": true,
+      "bounds": {
+        "x_min": 21.96261781502828,
+        "x_max": 98.69221320696572,
+        "y_min": 2.7848160304890826,
+        "y_max": 99.76166095294408
+      },
+      "stats5_ddof1": [
+        54.26327324000001,
+        47.83225282,
+        16.765142040000022,
+        26.935403489999985,
+        -0.06447185
+      ],
+      "stats5_ddof0": [
+        54.26327324000001,
+        47.83225282,
+        16.750377491085793,
+        26.911682302228137,
+        -0.06447185000000001
+      ],
+      "signature2_ddof1": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "signature2_ddof0": [
+        "54.26",
+        "47.83",
+        "16.75",
+        "26.91",
+        "-0.06"
+      ],
+      "ref_signature": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "max_stat_drift": 0.0048579599999776235,
+      "point_to_slot_dist": {
+        "mean": 2.9184387794991378,
+        "max": 11.201406774697432,
+        "p90": 6.188815999937512
+      },
+      "slot_to_point_dist": {
+        "mean": 4.250834841400516,
+        "max": 15.462874362929231,
+        "p90": 9.562294692043906
+      },
+      "layer_coverage": {
+        "nan": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 2.706374249628216,
+          "median_dist_to_point": 2.4248865446297763,
+          "p90_dist_to_point": 4.598296058903251,
+          "max_dist_to_point": 6.787292636770484
+        },
+        "kai": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 2.5236673064173534,
+          "median_dist_to_point": 2.4085323735727053,
+          "p90_dist_to_point": 5.049993656460838,
+          "max_dist_to_point": 5.812929646050523
+        },
+        "octagram": {
+          "target_slot_count": 140,
+          "mean_dist_to_point": 5.11346998290965,
+          "median_dist_to_point": 4.64791923688392,
+          "p90_dist_to_point": 9.747641455100077,
+          "max_dist_to_point": 11.57281950216329
+        },
+        "mid_ring": {
+          "target_slot_count": 68,
+          "mean_dist_to_point": 3.0668106849047985,
+          "median_dist_to_point": 2.8189814786185243,
+          "p90_dist_to_point": 6.483486450641748,
+          "max_dist_to_point": 9.616430354854659
+        },
+        "outer_ring": {
+          "target_slot_count": 240,
+          "mean_dist_to_point": 4.901011551549506,
+          "median_dist_to_point": 3.475092392079608,
+          "p90_dist_to_point": 10.398845301775733,
+          "max_dist_to_point": 15.462874362929231
+        }
+      },
+      "is_fully_accepted": true
+    },
+    "final_frame": {
+      "file": "output\\evolution_seed_20260915\\snapshots\\frame_060000.csv",
+      "point_count": 568,
+      "expected_n": 568,
+      "count_ok": true,
+      "ids_identical_to_frame0": true,
+      "ids_strictly_unique": true,
+      "in_bounds_0_100": true,
+      "bounds": {
+        "x_min": 13.6929582670026,
+        "x_max": 93.16871442364966,
+        "y_min": 1.891956066102622,
+        "y_max": 87.49298752479412
+      },
+      "stats5_ddof1": [
+        54.26327324000002,
+        47.83225282000001,
+        16.765142040000022,
+        26.935403489999995,
+        -0.06447184999999979
+      ],
+      "stats5_ddof0": [
+        54.26327324000002,
+        47.83225282000001,
+        16.750377491085796,
+        26.91168230222815,
+        -0.06447184999999979
+      ],
+      "signature2_ddof1": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "signature2_ddof0": [
+        "54.26",
+        "47.83",
+        "16.75",
+        "26.91",
+        "-0.06"
+      ],
+      "ref_signature": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "max_stat_drift": 0.0048579599999776235,
+      "point_to_slot_dist": {
+        "mean": 1.898097214396679,
+        "max": 5.115781782835451,
+        "p90": 3.7555179330738255
+      },
+      "slot_to_point_dist": {
+        "mean": 1.7010703408024677,
+        "max": 4.467200892642215,
+        "p90": 3.0443604130204798
+      },
+      "layer_coverage": {
+        "nan": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 1.1803872648075884,
+          "median_dist_to_point": 1.141425759957447,
+          "p90_dist_to_point": 1.9644164322265476,
+          "max_dist_to_point": 2.958678560818309
+        },
+        "kai": {
+          "target_slot_count": 60,
+          "mean_dist_to_point": 1.5731325033265575,
+          "median_dist_to_point": 1.4333954817412067,
+          "p90_dist_to_point": 2.6713279841225632,
+          "max_dist_to_point": 3.4647147478796367
+        },
+        "octagram": {
+          "target_slot_count": 140,
+          "mean_dist_to_point": 1.7346342588261345,
+          "median_dist_to_point": 1.7727508877186833,
+          "p90_dist_to_point": 2.8292665184350723,
+          "max_dist_to_point": 4.030918442623894
+        },
+        "mid_ring": {
+          "target_slot_count": 68,
+          "mean_dist_to_point": 2.0580248151112026,
+          "median_dist_to_point": 2.0077959831599084,
+          "p90_dist_to_point": 3.8424700743166715,
+          "max_dist_to_point": 4.467200892642215
+        },
+        "outer_ring": {
+          "target_slot_count": 240,
+          "mean_dist_to_point": 1.7425095159355508,
+          "median_dist_to_point": 1.5091701490793545,
+          "p90_dist_to_point": 3.204899260380233,
+          "max_dist_to_point": 4.39528251174035
+        }
+      },
+      "is_fully_accepted": true
+    },
+    "frames": [
+      {
+        "file": "output\\evolution_seed_20260915\\snapshots\\frame_000000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 21.96261781502828,
+          "x_max": 98.69221320696572,
+          "y_min": 2.7848160304890826,
+          "y_max": 99.76166095294408
+        },
+        "stats5_ddof1": [
+          54.26327324000001,
+          47.83225282,
+          16.765142040000022,
+          26.935403489999985,
+          -0.06447185
+        ],
+        "stats5_ddof0": [
+          54.26327324000001,
+          47.83225282,
+          16.750377491085793,
+          26.911682302228137,
+          -0.06447185000000001
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.0048579599999776235,
+        "point_to_slot_dist": {
+          "mean": 2.9184387794991378,
+          "max": 11.201406774697432,
+          "p90": 6.188815999937512
+        },
+        "slot_to_point_dist": {
+          "mean": 4.250834841400516,
+          "max": 15.462874362929231,
+          "p90": 9.562294692043906
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 2.706374249628216,
+            "median_dist_to_point": 2.4248865446297763,
+            "p90_dist_to_point": 4.598296058903251,
+            "max_dist_to_point": 6.787292636770484
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 2.5236673064173534,
+            "median_dist_to_point": 2.4085323735727053,
+            "p90_dist_to_point": 5.049993656460838,
+            "max_dist_to_point": 5.812929646050523
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 5.11346998290965,
+            "median_dist_to_point": 4.64791923688392,
+            "p90_dist_to_point": 9.747641455100077,
+            "max_dist_to_point": 11.57281950216329
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 3.0668106849047985,
+            "median_dist_to_point": 2.8189814786185243,
+            "p90_dist_to_point": 6.483486450641748,
+            "max_dist_to_point": 9.616430354854659
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 4.901011551549506,
+            "median_dist_to_point": 3.475092392079608,
+            "p90_dist_to_point": 10.398845301775733,
+            "max_dist_to_point": 15.462874362929231
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_20260915\\snapshots\\frame_015000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 12.754861940701604,
+          "x_max": 94.40739351751964,
+          "y_min": 0.6275113449181453,
+          "y_max": 91.75098783031336
+        },
+        "stats5_ddof1": [
+          54.26327324000001,
+          47.83225282000001,
+          16.765142040000015,
+          26.935403489999988,
+          -0.06447184999999994
+        ],
+        "stats5_ddof0": [
+          54.26327324000001,
+          47.83225282000001,
+          16.75037749108579,
+          26.91168230222814,
+          -0.06447184999999994
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.004857959999984729,
+        "point_to_slot_dist": {
+          "mean": 1.93454796062401,
+          "max": 8.072838623886215,
+          "p90": 3.8547539932671278
+        },
+        "slot_to_point_dist": {
+          "mean": 1.4585645756386707,
+          "max": 5.952143899177079,
+          "p90": 2.675834565102664
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.1734006093737923,
+            "median_dist_to_point": 0.855669857389899,
+            "p90_dist_to_point": 2.2740162283377634,
+            "max_dist_to_point": 3.0446543122569065
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.3358788099246064,
+            "median_dist_to_point": 1.2328178424877314,
+            "p90_dist_to_point": 2.265440744829895,
+            "max_dist_to_point": 2.987142608747517
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.4535054596460129,
+            "median_dist_to_point": 1.5185599310116795,
+            "p90_dist_to_point": 2.49082772660734,
+            "max_dist_to_point": 4.055823725850822
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.1859619192471498,
+            "median_dist_to_point": 1.8625903568575501,
+            "p90_dist_to_point": 4.204115776688061,
+            "max_dist_to_point": 5.952143899177079
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.3573822456067215,
+            "median_dist_to_point": 1.111068834396064,
+            "p90_dist_to_point": 2.7104157526671155,
+            "max_dist_to_point": 3.596048880950239
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_20260915\\snapshots\\frame_030000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 11.577009347568564,
+          "x_max": 95.10110418181937,
+          "y_min": 1.4206684102209346,
+          "y_max": 89.10782907968161
+        },
+        "stats5_ddof1": [
+          54.26327324000002,
+          47.83225282,
+          16.76514204000002,
+          26.935403490000002,
+          -0.06447185000000005
+        ],
+        "stats5_ddof0": [
+          54.26327324000002,
+          47.83225282,
+          16.75037749108579,
+          26.911682302228154,
+          -0.06447185000000005
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.004857959999981176,
+        "point_to_slot_dist": {
+          "mean": 1.8532279754901204,
+          "max": 6.407712320018368,
+          "p90": 3.722239308931538
+        },
+        "slot_to_point_dist": {
+          "mean": 1.4514925908217262,
+          "max": 5.5262086781845845,
+          "p90": 2.6679912695261883
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.177755737339367,
+            "median_dist_to_point": 1.0184907726944128,
+            "p90_dist_to_point": 1.879583788009728,
+            "max_dist_to_point": 2.9072005747018617
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.3596526364087478,
+            "median_dist_to_point": 1.2695223831873146,
+            "p90_dist_to_point": 2.35626382015274,
+            "max_dist_to_point": 2.9600182095326835
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.5227266099656698,
+            "median_dist_to_point": 1.4151856699185608,
+            "p90_dist_to_point": 2.552718571227596,
+            "max_dist_to_point": 5.412657014414743
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.075181675495326,
+            "median_dist_to_point": 1.9393539032148697,
+            "p90_dist_to_point": 3.8306784723726333,
+            "max_dist_to_point": 5.5262086781845845
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.3246217076374072,
+            "median_dist_to_point": 1.1578787908799382,
+            "p90_dist_to_point": 2.550059914017304,
+            "max_dist_to_point": 4.157723206024223
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_20260915\\snapshots\\frame_045000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 13.304783956182414,
+          "x_max": 95.23524617501556,
+          "y_min": 1.4560488297340377,
+          "y_max": 89.07018125533786
+        },
+        "stats5_ddof1": [
+          54.26327324000002,
+          47.83225282000001,
+          16.76514204000002,
+          26.935403489999985,
+          -0.06447184999999994
+        ],
+        "stats5_ddof0": [
+          54.26327324000002,
+          47.83225282000001,
+          16.75037749108579,
+          26.91168230222814,
+          -0.06447184999999996
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.004857959999981176,
+        "point_to_slot_dist": {
+          "mean": 1.8917768697092865,
+          "max": 5.673163413459419,
+          "p90": 3.8534263095921317
+        },
+        "slot_to_point_dist": {
+          "mean": 1.5711883884554798,
+          "max": 4.866260032591641,
+          "p90": 3.01578732255707
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.0820904602076042,
+            "median_dist_to_point": 1.1248691424392079,
+            "p90_dist_to_point": 1.6493432894392501,
+            "max_dist_to_point": 2.8994838094224464
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.3666923944676184,
+            "median_dist_to_point": 1.2623381595565792,
+            "p90_dist_to_point": 2.4294706789803824,
+            "max_dist_to_point": 3.1460814418024308
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.6027617653528015,
+            "median_dist_to_point": 1.5743154823930041,
+            "p90_dist_to_point": 2.730964714067131,
+            "max_dist_to_point": 4.048406724593737
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.1152766867016912,
+            "median_dist_to_point": 1.903394596181783,
+            "p90_dist_to_point": 4.215860636023861,
+            "max_dist_to_point": 4.866260032591641
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.5720107146545501,
+            "median_dist_to_point": 1.3364309298602186,
+            "p90_dist_to_point": 3.1516224988347865,
+            "max_dist_to_point": 4.386257569590212
+          }
+        },
+        "is_fully_accepted": true
+      },
+      {
+        "file": "output\\evolution_seed_20260915\\snapshots\\frame_060000.csv",
+        "point_count": 568,
+        "expected_n": 568,
+        "count_ok": true,
+        "ids_identical_to_frame0": true,
+        "ids_strictly_unique": true,
+        "in_bounds_0_100": true,
+        "bounds": {
+          "x_min": 13.6929582670026,
+          "x_max": 93.16871442364966,
+          "y_min": 1.891956066102622,
+          "y_max": 87.49298752479412
+        },
+        "stats5_ddof1": [
+          54.26327324000002,
+          47.83225282000001,
+          16.765142040000022,
+          26.935403489999995,
+          -0.06447184999999979
+        ],
+        "stats5_ddof0": [
+          54.26327324000002,
+          47.83225282000001,
+          16.750377491085796,
+          26.91168230222815,
+          -0.06447184999999979
+        ],
+        "signature2_ddof1": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "signature2_ddof0": [
+          "54.26",
+          "47.83",
+          "16.75",
+          "26.91",
+          "-0.06"
+        ],
+        "ref_signature": [
+          "54.26",
+          "47.83",
+          "16.77",
+          "26.94",
+          "-0.06"
+        ],
+        "matches_ref_signature": true,
+        "max_stat_drift": 0.0048579599999776235,
+        "point_to_slot_dist": {
+          "mean": 1.898097214396679,
+          "max": 5.115781782835451,
+          "p90": 3.7555179330738255
+        },
+        "slot_to_point_dist": {
+          "mean": 1.7010703408024677,
+          "max": 4.467200892642215,
+          "p90": 3.0443604130204798
+        },
+        "layer_coverage": {
+          "nan": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.1803872648075884,
+            "median_dist_to_point": 1.141425759957447,
+            "p90_dist_to_point": 1.9644164322265476,
+            "max_dist_to_point": 2.958678560818309
+          },
+          "kai": {
+            "target_slot_count": 60,
+            "mean_dist_to_point": 1.5731325033265575,
+            "median_dist_to_point": 1.4333954817412067,
+            "p90_dist_to_point": 2.6713279841225632,
+            "max_dist_to_point": 3.4647147478796367
+          },
+          "octagram": {
+            "target_slot_count": 140,
+            "mean_dist_to_point": 1.7346342588261345,
+            "median_dist_to_point": 1.7727508877186833,
+            "p90_dist_to_point": 2.8292665184350723,
+            "max_dist_to_point": 4.030918442623894
+          },
+          "mid_ring": {
+            "target_slot_count": 68,
+            "mean_dist_to_point": 2.0580248151112026,
+            "median_dist_to_point": 2.0077959831599084,
+            "p90_dist_to_point": 3.8424700743166715,
+            "max_dist_to_point": 4.467200892642215
+          },
+          "outer_ring": {
+            "target_slot_count": 240,
+            "mean_dist_to_point": 1.7425095159355508,
+            "median_dist_to_point": 1.5091701490793545,
+            "p90_dist_to_point": 3.204899260380233,
+            "max_dist_to_point": 4.39528251174035
+          }
+        },
+        "is_fully_accepted": true
+      }
+    ],
+    "metrics_summary": {
+      "random_seed": 20260915,
+      "n_points": 568,
+      "total_steps": 60000,
+      "total_time_seconds": 15.87,
+      "final_energy_mse": 11.7935,
+      "best_energy_mse": 11.7846,
+      "final_stats5": [
+        54.26327323999999,
+        47.83225282000002,
+        16.76514204000002,
+        26.935403489999995,
+        -0.06447184999999984
+      ],
+      "final_signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "accepted_proposals": 56579,
+      "overall_acceptance_rate": 0.943,
+      "stagnation_events": [
+        {
+          "step": 20000,
+          "cause": "Relative improvement -0.0115 < 0.005 over 4000 steps",
+          "action": "reassign + boost angle exploration + soft reheat"
+        },
+        {
+          "step": 24000,
+          "cause": "Relative improvement -0.0077 < 0.005 over 4000 steps",
+          "action": "reassign + boost angle exploration + soft reheat"
+        }
+      ],
+      "final_layer_metrics": {
+        "nan": {
+          "count": 60,
+          "mean_dist": 3.253950668078836,
+          "median_dist": 3.236334446724639,
+          "max_dist": 3.978364261311971,
+          "p90_dist": 3.6783716367584294
+        },
+        "kai": {
+          "count": 60,
+          "mean_dist": 3.358994751539214,
+          "median_dist": 3.3671909390533576,
+          "max_dist": 4.117156534181552,
+          "p90_dist": 3.829258006379086
+        },
+        "octagram": {
+          "count": 140,
+          "mean_dist": 3.1729195988145307,
+          "median_dist": 2.8948687301678575,
+          "max_dist": 4.581361920640982,
+          "p90_dist": 4.231415954793612
+        },
+        "mid_ring": {
+          "count": 68,
+          "mean_dist": 3.1404456906779137,
+          "median_dist": 2.749305097799605,
+          "max_dist": 5.38026170866926,
+          "p90_dist": 4.666357208872472
+        },
+        "outer_ring": {
+          "count": 240,
+          "mean_dist": 3.335464838824613,
+          "median_dist": 3.4033842491762725,
+          "max_dist": 5.666867792944785,
+          "p90_dist": 4.994603539807441
+        }
+      },
+      "history": [
+        {
+          "step": 15000,
+          "elapsed_sec": 4.71,
+          "energy_mse": 14.0018,
+          "accepted_count": 14573,
+          "acceptance_rate": 0.9715,
+          "stats5": [
+            54.263273240000004,
+            47.83225282000001,
+            16.765142040000015,
+            26.935403489999988,
+            -0.06447184999999994
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.1614565335661635,
+              "median_dist": 2.9326140868487043,
+              "max_dist": 5.811929453253427,
+              "p90_dist": 4.435720265087716
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.555501387986508,
+              "median_dist": 3.617024033451619,
+              "max_dist": 5.924129992385682,
+              "p90_dist": 4.59761270239574
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.339979156072677,
+              "median_dist": 3.2458245118015276,
+              "max_dist": 6.78659789187662,
+              "p90_dist": 4.824523279257617
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.5753752560689214,
+              "median_dist": 3.233004089232172,
+              "max_dist": 7.163595538065277,
+              "p90_dist": 5.59897215740944
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.551052460639629,
+              "median_dist": 3.408910861511229,
+              "max_dist": 9.171734905082777,
+              "p90_dist": 5.64143955432194
+            }
+          }
+        },
+        {
+          "step": 30000,
+          "elapsed_sec": 8.68,
+          "energy_mse": 13.6549,
+          "accepted_count": 28973,
+          "acceptance_rate": 0.9658,
+          "stats5": [
+            54.26327324000006,
+            47.83225281999999,
+            16.765142040000015,
+            26.935403490000002,
+            -0.06447185000000011
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.5948233434749577,
+              "median_dist": 3.611463095473377,
+              "max_dist": 7.769982513060492,
+              "p90_dist": 4.619827685006707
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.4697418347302342,
+              "median_dist": 3.4813784425986167,
+              "max_dist": 5.863929144527398,
+              "p90_dist": 4.560548106916225
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.493835933243152,
+              "median_dist": 3.3572658283078325,
+              "max_dist": 6.601381402964765,
+              "p90_dist": 5.0602583107738415
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.480779634029411,
+              "median_dist": 3.549665744716405,
+              "max_dist": 7.102686766065684,
+              "p90_dist": 5.192106329026138
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.319506679623557,
+              "median_dist": 3.4411479632421282,
+              "max_dist": 9.091759902558572,
+              "p90_dist": 5.322124211590211
+            }
+          }
+        },
+        {
+          "step": 45000,
+          "elapsed_sec": 11.91,
+          "energy_mse": 12.4761,
+          "accepted_count": 43072,
+          "acceptance_rate": 0.9572,
+          "stats5": [
+            54.26327324000005,
+            47.832252820000015,
+            16.76514204000002,
+            26.935403489999985,
+            -0.06447184999999998
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.23092662830617,
+              "median_dist": 3.3229126302252836,
+              "max_dist": 4.310512653640135,
+              "p90_dist": 3.932737787624402
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.3343008125967324,
+              "median_dist": 3.290363193070175,
+              "max_dist": 6.243875504194272,
+              "p90_dist": 3.9998546764864717
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.18990877188885,
+              "median_dist": 3.0241854526784655,
+              "max_dist": 5.485784524355205,
+              "p90_dist": 4.295629544090032
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.370960892092552,
+              "median_dist": 3.204709085885465,
+              "max_dist": 6.742413946063243,
+              "p90_dist": 5.013771161724409
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.422300073355987,
+              "median_dist": 3.6184031432893518,
+              "max_dist": 6.464874086551467,
+              "p90_dist": 5.256195311966395
+            }
+          }
+        },
+        {
+          "step": 60000,
+          "elapsed_sec": 15.56,
+          "energy_mse": 11.7935,
+          "accepted_count": 56579,
+          "acceptance_rate": 0.943,
+          "stats5": [
+            54.26327323999999,
+            47.83225282000002,
+            16.76514204000002,
+            26.935403489999995,
+            -0.06447184999999984
+          ],
+          "signature2": [
+            "54.26",
+            "47.83",
+            "16.77",
+            "26.94",
+            "-0.06"
+          ],
+          "layer_metrics": {
+            "nan": {
+              "count": 60,
+              "mean_dist": 3.253950668078836,
+              "median_dist": 3.236334446724639,
+              "max_dist": 3.978364261311971,
+              "p90_dist": 3.6783716367584294
+            },
+            "kai": {
+              "count": 60,
+              "mean_dist": 3.358994751539214,
+              "median_dist": 3.3671909390533576,
+              "max_dist": 4.117156534181552,
+              "p90_dist": 3.829258006379086
+            },
+            "octagram": {
+              "count": 140,
+              "mean_dist": 3.1729195988145307,
+              "median_dist": 2.8948687301678575,
+              "max_dist": 4.581361920640982,
+              "p90_dist": 4.231415954793612
+            },
+            "mid_ring": {
+              "count": 68,
+              "mean_dist": 3.1404456906779137,
+              "median_dist": 2.749305097799605,
+              "max_dist": 5.38026170866926,
+              "p90_dist": 4.666357208872472
+            },
+            "outer_ring": {
+              "count": 240,
+              "mean_dist": 3.335464838824613,
+              "median_dist": 3.4033842491762725,
+              "max_dist": 5.666867792944785,
+              "p90_dist": 4.994603539807441
+            }
+          }
+        }
+      ]
+    }
+  }
+}

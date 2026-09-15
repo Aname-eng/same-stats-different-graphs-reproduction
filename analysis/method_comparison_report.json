@@ -1,0 +1,75 @@
+{
+  "Method_A_Legacy_Unidirectional_1pt": {
+    "description": "Legacy 1-way distance + single-point perturbations",
+    "steps": 15000,
+    "time_seconds": 2.62,
+    "proposals": 14991,
+    "accepted_under_legacy_floor": 4388,
+    "acc_rate_legacy_floor": 0.29271,
+    "acc_rate_round2": 0.0066,
+    "final_mean_dist_to_target": 1.4274820736626452,
+    "final_signature2": [
+      "54.26",
+      "47.83",
+      "16.76",
+      "26.93",
+      "-0.07"
+    ],
+    "matches_round2_signature": false,
+    "is_legal_round2": false
+  },
+  "Method_B_Capacity_1pt": {
+    "description": "Capacity-constrained matching + single-point perturbations",
+    "steps": 15000,
+    "time_seconds": 1.67,
+    "proposals": 14975,
+    "accepted_under_round2": 4235,
+    "acc_rate_round2": 0.2828,
+    "final_mse": 54.296,
+    "final_signature2": [
+      "54.26",
+      "47.83",
+      "16.77",
+      "26.94",
+      "-0.06"
+    ],
+    "matches_round2_signature": true,
+    "is_legal_round2": true
+  },
+  "Method_C_Capacity_3pt_Invariance": {
+    "description": "Capacity matching + exact 3-point invariant moves",
+    "steps": 15000,
+    "time_seconds": 1.98,
+    "proposals": 14881,
+    "accepted_under_round2": 11019,
+    "acc_rate_round2": 0.74047,
+    "final_mse": 11.703,
+    "final_signature2": [
+      "54.26",
+      "47.83",
+      "16.77",
+      "26.94",
+      "-0.06"
+    ],
+    "matches_round2_signature": true,
+    "is_legal_round2": true
+  },
+  "Method_D_Enhanced_Full_System": {
+    "description": "Capacity matching + 3-point kernel + adaptive selection + stagnation recovery",
+    "steps": 15000,
+    "time_seconds": 2.8,
+    "proposals": 14994,
+    "accepted_under_round2": 14994,
+    "acc_rate_round2": 1.0,
+    "final_mse": 11.692,
+    "final_signature2": [
+      "54.26",
+      "47.83",
+      "16.77",
+      "26.94",
+      "-0.06"
+    ],
+    "matches_round2_signature": true,
+    "is_legal_round2": true
+  }
+}

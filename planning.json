@@ -1,0 +1,116 @@
+{
+  "planning_version": "2.0.0-enhanced",
+  "reference_signature": [
+    "54.26",
+    "47.83",
+    "16.77",
+    "26.94",
+    "-0.06"
+  ],
+  "candidates_evaluated": [
+    {
+      "n": 142,
+      "nominal_spacing": 6.599,
+      "text_points": 30,
+      "text_spacing": 8.333,
+      "quotas": {
+        "nan": 15,
+        "kai": 15,
+        "octagram": 35,
+        "mid_ring": 17,
+        "outer_ring": 60
+      },
+      "dino_legal": true,
+      "passes_visual_budget": false,
+      "passed_all": false,
+      "dino_shift_mean": 5.767023956496431e-08,
+      "dino_nn_mean": 2.896099790805053,
+      "reason": "Failed visual budget (too sparse for text readability)"
+    },
+    {
+      "n": 284,
+      "nominal_spacing": 3.299,
+      "text_points": 60,
+      "text_spacing": 4.167,
+      "quotas": {
+        "nan": 30,
+        "kai": 30,
+        "octagram": 70,
+        "mid_ring": 34,
+        "outer_ring": 120
+      },
+      "dino_legal": true,
+      "passes_visual_budget": false,
+      "passed_all": false,
+      "dino_shift_mean": 0.1978616638329908,
+      "dino_nn_mean": 1.0922965519951149,
+      "reason": "Failed visual budget (too sparse for text readability)"
+    },
+    {
+      "n": 426,
+      "nominal_spacing": 2.2,
+      "text_points": 90,
+      "text_spacing": 2.778,
+      "quotas": {
+        "nan": 45,
+        "kai": 45,
+        "octagram": 105,
+        "mid_ring": 51,
+        "outer_ring": 180
+      },
+      "dino_legal": true,
+      "passes_visual_budget": false,
+      "passed_all": false,
+      "dino_shift_mean": 0.22541061841525634,
+      "dino_nn_mean": 0.7117336135650321,
+      "reason": "Failed visual budget (too sparse for text readability)"
+    },
+    {
+      "n": 568,
+      "nominal_spacing": 1.65,
+      "text_points": 120,
+      "text_spacing": 2.083,
+      "quotas": {
+        "nan": 60,
+        "kai": 60,
+        "octagram": 140,
+        "mid_ring": 68,
+        "outer_ring": 240
+      },
+      "dino_legal": true,
+      "passes_visual_budget": true,
+      "passed_all": true,
+      "dino_shift_mean": 0.21112728443431025,
+      "dino_nn_mean": 0.5254575092939421,
+      "reason": "Meets all visual budget, stroke density, and exact statistical gate requirements."
+    },
+    {
+      "n": 852,
+      "nominal_spacing": 1.1,
+      "text_points": 178,
+      "text_spacing": 1.404,
+      "quotas": {
+        "nan": 89,
+        "kai": 89,
+        "octagram": 210,
+        "mid_ring": 102,
+        "outer_ring": 362
+      },
+      "dino_legal": true,
+      "passes_visual_budget": true,
+      "passed_all": true,
+      "dino_shift_mean": 0.2075446302809924,
+      "dino_nn_mean": 0.37084148165639685,
+      "reason": "Meets all visual budget, stroke density, and exact statistical gate requirements."
+    }
+  ],
+  "chosen_n_star": 568,
+  "rationale": "N*=568 is the minimal candidate satisfying both exact statistical legality and visual stroke resolution thresholds.",
+  "quota_allocation": {
+    "nan": 60,
+    "kai": 60,
+    "octagram": 140,
+    "mid_ring": 68,
+    "outer_ring": 240
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "random_seed": 42,
+  "n_points": 568,
+  "total_steps": 60000,
+  "total_time_seconds": 18.0,
+  "final_energy_mse": 11.852,
+  "best_energy_mse": 11.852,
+  "final_stats5": [
+    54.26327323999993,
+    47.83225282000004,
+    16.76514204000002,
+    26.935403490000006,
+    -0.06447184999999996
+  ],
+  "final_signature2": [
+    "54.26",
+    "47.83",
+    "16.77",
+    "26.94",
+    "-0.06"
+  ],
+  "matches_ref_signature": true,
+  "accepted_proposals": 56787,
+  "overall_acceptance_rate": 0.9465,
+  "stagnation_events": [
+    {
+      "step": 20000,
+      "cause": "Relative improvement -0.0011 < 0.005 over 4000 steps",
+      "action": "reassign + boost angle exploration + soft reheat"
+    },
+    {
+      "step": 28000,
+      "cause": "Relative improvement 0.0024 < 0.005 over 4000 steps",
+      "action": "reassign + boost angle exploration + soft reheat"
+    },
+    {
+      "step": 36000,
+      "cause": "Relative improvement -0.0100 < 0.005 over 4000 steps",
+      "action": "reassign + boost angle exploration + soft reheat"
+    }
+  ],
+  "final_layer_metrics": {
+    "nan": {
+      "count": 60,
+      "mean_dist": 3.3565276583364336,
+      "median_dist": 3.3993369277431125,
+      "max_dist": 3.917818838667805,
+      "p90_dist": 3.729826715822598
+    },
+    "kai": {
+      "count": 60,
+      "mean_dist": 3.3304436821924694,
+      "median_dist": 3.325452630160719,
+      "max_dist": 4.148548428125708,
+      "p90_dist": 3.8372043643896374
+    },
+    "octagram": {
+      "count": 140,
+      "mean_dist": 3.2069740866331635,
+      "median_dist": 3.063668128432673,
+      "max_dist": 4.805014615284321,
+      "p90_dist": 4.343244361810006
+    },
+    "mid_ring": {
+      "count": 68,
+      "mean_dist": 3.188289486566307,
+      "median_dist": 2.713003871140258,
+      "max_dist": 5.418898043198964,
+      "p90_dist": 4.811735149221122
+    },
+    "outer_ring": {
+      "count": 240,
+      "mean_dist": 3.299826518507278,
+      "median_dist": 3.1203161579584036,
+      "max_dist": 5.594735719978498,
+      "p90_dist": 4.944768834073787
+    }
+  },
+  "history": [
+    {
+      "step": 15000,
+      "elapsed_sec": 5.35,
+      "energy_mse": 13.748,
+      "accepted_count": 14565,
+      "acceptance_rate": 0.971,
+      "stats5": [
+        54.26327324000002,
+        47.83225282000001,
+        16.76514204000001,
+        26.935403489999995,
+        -0.06447184999999996
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "layer_metrics": {
+        "nan": {
+          "count": 60,
+          "mean_dist": 3.4613962023070135,
+          "median_dist": 3.504803942718773,
+          "max_dist": 5.779550055516443,
+          "p90_dist": 4.477137281670229
+        },
+        "kai": {
+          "count": 60,
+          "mean_dist": 3.5646820932139107,
+          "median_dist": 3.600005312839159,
+          "max_dist": 5.773805112213619,
+          "p90_dist": 4.406643088884719
+        },
+        "octagram": {
+          "count": 140,
+          "mean_dist": 3.3220071353114418,
+          "median_dist": 3.2257003137838094,
+          "max_dist": 6.511953249444081,
+          "p90_dist": 4.5989543969027595
+        },
+        "mid_ring": {
+          "count": 68,
+          "mean_dist": 3.6351498124773416,
+          "median_dist": 3.3802037824278535,
+          "max_dist": 7.4049291292955175,
+          "p90_dist": 5.413930438853993
+        },
+        "outer_ring": {
+          "count": 240,
+          "mean_dist": 3.4430689308495723,
+          "median_dist": 3.20188873400016,
+          "max_dist": 7.25346497454001,
+          "p90_dist": 5.6601765898559
+        }
+      }
+    },
+    {
+      "step": 30000,
+      "elapsed_sec": 9.92,
+      "energy_mse": 13.2449,
+      "accepted_count": 28980,
+      "acceptance_rate": 0.966,
+      "stats5": [
+        54.26327323999998,
+        47.83225282000001,
+        16.765142040000022,
+        26.93540348999999,
+        -0.06447184999999989
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "layer_metrics": {
+        "nan": {
+          "count": 60,
+          "mean_dist": 3.5155195692660586,
+          "median_dist": 3.4441329042225375,
+          "max_dist": 6.503963020309975,
+          "p90_dist": 4.516179762222002
+        },
+        "kai": {
+          "count": 60,
+          "mean_dist": 3.678253621068071,
+          "median_dist": 3.607648540214508,
+          "max_dist": 7.2663874624587965,
+          "p90_dist": 4.865654614811002
+        },
+        "octagram": {
+          "count": 140,
+          "mean_dist": 3.2409904082655054,
+          "median_dist": 3.100712695305955,
+          "max_dist": 7.485604936756739,
+          "p90_dist": 4.712018792027281
+        },
+        "mid_ring": {
+          "count": 68,
+          "mean_dist": 3.5042417875200265,
+          "median_dist": 3.41609072011486,
+          "max_dist": 6.661178094644253,
+          "p90_dist": 5.415699157624208
+        },
+        "outer_ring": {
+          "count": 240,
+          "mean_dist": 3.3446429906603017,
+          "median_dist": 3.462030557497133,
+          "max_dist": 7.1629980026336755,
+          "p90_dist": 5.184347073370104
+        }
+      }
+    },
+    {
+      "step": 45000,
+      "elapsed_sec": 13.98,
+      "energy_mse": 12.4211,
+      "accepted_count": 43109,
+      "acceptance_rate": 0.958,
+      "stats5": [
+        54.263273240000025,
+        47.832252820000015,
+        16.765142040000026,
+        26.935403489999974,
+        -0.06447184999999987
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "layer_metrics": {
+        "nan": {
+          "count": 60,
+          "mean_dist": 3.6366461649827992,
+          "median_dist": 3.4666809896245967,
+          "max_dist": 6.007646066362887,
+          "p90_dist": 5.069469227313867
+        },
+        "kai": {
+          "count": 60,
+          "mean_dist": 3.514315764038713,
+          "median_dist": 3.4194743424640253,
+          "max_dist": 5.380105021216122,
+          "p90_dist": 4.376965239816226
+        },
+        "octagram": {
+          "count": 140,
+          "mean_dist": 3.1820791003829525,
+          "median_dist": 2.979328720494003,
+          "max_dist": 5.5091862775250915,
+          "p90_dist": 4.532581800739883
+        },
+        "mid_ring": {
+          "count": 68,
+          "mean_dist": 3.1393757215657936,
+          "median_dist": 2.76693618227943,
+          "max_dist": 5.403805401275437,
+          "p90_dist": 4.850546749802663
+        },
+        "outer_ring": {
+          "count": 240,
+          "mean_dist": 3.3218002681371077,
+          "median_dist": 3.4405677488735162,
+          "max_dist": 6.225134736866631,
+          "p90_dist": 5.093937184025527
+        }
+      }
+    },
+    {
+      "step": 60000,
+      "elapsed_sec": 17.6,
+      "energy_mse": 11.852,
+      "accepted_count": 56787,
+      "acceptance_rate": 0.9465,
+      "stats5": [
+        54.26327323999993,
+        47.83225282000004,
+        16.76514204000002,
+        26.935403490000006,
+        -0.06447184999999996
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "layer_metrics": {
+        "nan": {
+          "count": 60,
+          "mean_dist": 3.3565276583364336,
+          "median_dist": 3.3993369277431125,
+          "max_dist": 3.917818838667805,
+          "p90_dist": 3.729826715822598
+        },
+        "kai": {
+          "count": 60,
+          "mean_dist": 3.3304436821924694,
+          "median_dist": 3.325452630160719,
+          "max_dist": 4.148548428125708,
+          "p90_dist": 3.8372043643896374
+        },
+        "octagram": {
+          "count": 140,
+          "mean_dist": 3.2069740866331635,
+          "median_dist": 3.063668128432673,
+          "max_dist": 4.805014615284321,
+          "p90_dist": 4.343244361810006
+        },
+        "mid_ring": {
+          "count": 68,
+          "mean_dist": 3.188289486566307,
+          "median_dist": 2.713003871140258,
+          "max_dist": 5.418898043198964,
+          "p90_dist": 4.811735149221122
+        },
+        "outer_ring": {
+          "count": 240,
+          "mean_dist": 3.299826518507278,
+          "median_dist": 3.1203161579584036,
+          "max_dist": 5.594735719978498,
+          "p90_dist": 4.944768834073787
+        }
+      }
+    }
+  ]
+}

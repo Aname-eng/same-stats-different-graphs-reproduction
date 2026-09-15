@@ -1,0 +1,86 @@
+{
+  "Datasaurus_original": {
+    "file": "course_source/seed_datasets/Datasaurus_data.csv",
+    "n_points": 142,
+    "stats5_unrounded": [
+      54.26327323943662,
+      47.832252816901416,
+      16.765142039116782,
+      26.935403486939112,
+      -0.06447185270095167
+    ],
+    "signature2": [
+      "54.26",
+      "47.83",
+      "16.77",
+      "26.94",
+      "-0.06"
+    ],
+    "legacy_floor_pass": true,
+    "round2_pass": true,
+    "max_abs_diff_from_ref": 0.0
+  },
+  "Circle_final_99k": {
+    "file": "run_default_dino_to_circle/results/circle-data-00099.csv",
+    "n_points": 142,
+    "stats5_unrounded": [
+      54.26495433780857,
+      47.83123108691119,
+      16.766825721124526,
+      26.93101533426111,
+      -0.06111295717791318
+    ],
+    "signature2": [
+      "54.26",
+      "47.83",
+      "16.77",
+      "26.93",
+      "-0.06"
+    ],
+    "legacy_floor_pass": true,
+    "round2_pass": false,
+    "max_abs_diff_from_ref": 0.004388152678000523
+  },
+  "Flower_142_final": {
+    "file": "custom_flower_142/data-00020.csv",
+    "n_points": 142,
+    "stats5_unrounded": [
+      54.26969758673037,
+      47.831889607393954,
+      16.76998037781874,
+      26.936210883102873,
+      -0.06430040273729679
+    ],
+    "signature2": [
+      "54.27",
+      "47.83",
+      "16.77",
+      "26.94",
+      "-0.06"
+    ],
+    "legacy_floor_pass": true,
+    "round2_pass": false,
+    "max_abs_diff_from_ref": 0.006424347293751964
+  },
+  "Flower_284_final": {
+    "file": "custom_flower_284/data-00020.csv",
+    "n_points": 284,
+    "stats5_unrounded": [
+      54.26973701897554,
+      47.836230372064215,
+      16.76202567960174,
+      26.93374298466357,
+      -0.06038017301119786
+    ],
+    "signature2": [
+      "54.27",
+      "47.84",
+      "16.76",
+      "26.93",
+      "-0.06"
+    ],
+    "legacy_floor_pass": true,
+    "round2_pass": false,
+    "max_abs_diff_from_ref": 0.006463779538918857
+  }
+}
