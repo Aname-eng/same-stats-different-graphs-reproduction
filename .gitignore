@@ -1,0 +1,13 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large render html caches
+report_render.html
+report_clean_render.html
+
+# OS metadata
+.DS_Store
+Thumbs.db
+*.tmp
