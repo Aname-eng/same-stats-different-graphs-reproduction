@@ -1,0 +1,247 @@
+{
+  "random_seed": 42,
+  "n_points": 11360,
+  "total_steps": 80000,
+  "total_time_seconds": 311.2,
+  "final_energy_mse": 1.7727,
+  "best_energy_mse": 1.4629,
+  "final_stats5": [
+    54.26327323999955,
+    47.83225281999989,
+    16.765142040000008,
+    26.93540348999999,
+    -0.06447184999999993
+  ],
+  "final_signature2": [
+    "54.26",
+    "47.83",
+    "16.77",
+    "26.94",
+    "-0.06"
+  ],
+  "matches_ref_signature": true,
+  "accepted_proposals": 1410616,
+  "overall_acceptance_rate": 17.6327,
+  "stagnation_events": [
+    {
+      "step": 12000,
+      "cause": "Relative improvement -0.0787 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    },
+    {
+      "step": 24000,
+      "cause": "Relative improvement -0.1424 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    },
+    {
+      "step": 33000,
+      "cause": "Relative improvement -0.2405 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    },
+    {
+      "step": 39000,
+      "cause": "Relative improvement -0.1121 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    },
+    {
+      "step": 48000,
+      "cause": "Relative improvement -0.2392 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    },
+    {
+      "step": 60000,
+      "cause": "Relative improvement -0.1443 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    },
+    {
+      "step": 63000,
+      "cause": "Relative improvement -0.1006 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    },
+    {
+      "step": 75000,
+      "cause": "Relative improvement -0.1752 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    }
+  ],
+  "final_geometry_evaluation": {
+    "final_geometry_pass": false,
+    "reason_codes": [
+      "GEOMETRY_OUTER_RING_FAILED"
+    ],
+    "layer_evaluations": {
+      "outer_ring": {
+        "mean_dist": 1.191,
+        "p95_dist": 3.411,
+        "max_dist": 5.667,
+        "coverage_ratio": 0.875,
+        "max_gap_length": 10.092,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.85,
+          "max_gap_length": 6.0
+        },
+        "passed": false
+      },
+      "inner_ring": {
+        "mean_dist": 0.266,
+        "p95_dist": 0.538,
+        "max_dist": 0.963,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.2,
+          "max_p95_dist": 3.8,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 6.0
+        },
+        "passed": true
+      },
+      "octagram": {
+        "mean_dist": 0.228,
+        "p95_dist": 0.483,
+        "max_dist": 0.749,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.2,
+          "max_p95_dist": 3.8,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 5.0
+        },
+        "passed": true
+      },
+      "stroke_nan": {
+        "mean_dist": 0.239,
+        "p95_dist": 0.481,
+        "max_dist": 0.733,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 4.0
+        },
+        "passed": true
+      },
+      "stroke_kai": {
+        "mean_dist": 0.278,
+        "p95_dist": 0.56,
+        "max_dist": 1.023,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 4.0
+        },
+        "passed": true
+      }
+    }
+  },
+  "history": [
+    {
+      "step": 15000,
+      "elapsed_sec": 62.03,
+      "energy_mse": 2.2877,
+      "accepted_count": 265015,
+      "acceptance_rate": 17.6677,
+      "stats5": [
+        54.26327323999966,
+        47.83225282000029,
+        16.765142040000026,
+        26.935403490000066,
+        -0.0644718499999995
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": false,
+      "reason_codes": [
+        "GEOMETRY_OUTER_RING_FAILED"
+      ]
+    },
+    {
+      "step": 30000,
+      "elapsed_sec": 118.5,
+      "energy_mse": 2.0721,
+      "accepted_count": 530456,
+      "acceptance_rate": 17.6819,
+      "stats5": [
+        54.26327323999964,
+        47.83225282000018,
+        16.765142040000015,
+        26.935403490000006,
+        -0.0644718499999994
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": false,
+      "reason_codes": [
+        "GEOMETRY_OUTER_RING_FAILED"
+      ]
+    },
+    {
+      "step": 60000,
+      "elapsed_sec": 229.91,
+      "energy_mse": 2.1431,
+      "accepted_count": 1061238,
+      "acceptance_rate": 17.6873,
+      "stats5": [
+        54.26327323999963,
+        47.83225282000042,
+        16.76514204,
+        26.93540349000006,
+        -0.06447184999999962
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": false,
+      "reason_codes": [
+        "GEOMETRY_OUTER_RING_FAILED"
+      ]
+    },
+    {
+      "step": 75000,
+      "elapsed_sec": 292.32,
+      "energy_mse": 1.9944,
+      "accepted_count": 1323689,
+      "acceptance_rate": 17.6492,
+      "stats5": [
+        54.26327323999992,
+        47.832252820000065,
+        16.765142040000036,
+        26.935403490000056,
+        -0.06447184999999948
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": false,
+      "reason_codes": [
+        "GEOMETRY_OUTER_RING_FAILED"
+      ]
+    }
+  ]
+}

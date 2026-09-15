@@ -1,0 +1,204 @@
+{
+  "random_seed": 42,
+  "n_points": 2272,
+  "total_steps": 60000,
+  "total_time_seconds": 57.93,
+  "final_energy_mse": 0.1994,
+  "best_energy_mse": 0.1994,
+  "final_stats5": [
+    54.26327324000005,
+    47.832252820000065,
+    16.76514204,
+    26.935403489999995,
+    -0.06447185000000007
+  ],
+  "final_signature2": [
+    "54.26",
+    "47.83",
+    "16.77",
+    "26.94",
+    "-0.06"
+  ],
+  "matches_ref_signature": true,
+  "accepted_proposals": 58530,
+  "overall_acceptance_rate": 0.9755,
+  "stagnation_events": [
+    {
+      "step": 33000,
+      "cause": "Relative improvement -0.0176 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    }
+  ],
+  "final_geometry_evaluation": {
+    "final_geometry_pass": true,
+    "reason_codes": [],
+    "layer_evaluations": {
+      "outer_ring": {
+        "mean_dist": 0.406,
+        "p95_dist": 1.135,
+        "max_dist": 1.912,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.85,
+          "max_gap_length": 6.0
+        },
+        "passed": true
+      },
+      "inner_ring": {
+        "mean_dist": 0.34,
+        "p95_dist": 0.649,
+        "max_dist": 0.863,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.2,
+          "max_p95_dist": 3.8,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 6.0
+        },
+        "passed": true
+      },
+      "octagram": {
+        "mean_dist": 0.257,
+        "p95_dist": 0.49,
+        "max_dist": 0.63,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.2,
+          "max_p95_dist": 3.8,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 5.0
+        },
+        "passed": true
+      },
+      "stroke_nan": {
+        "mean_dist": 0.35,
+        "p95_dist": 0.699,
+        "max_dist": 1.012,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 4.0
+        },
+        "passed": true
+      },
+      "stroke_kai": {
+        "mean_dist": 0.355,
+        "p95_dist": 0.693,
+        "max_dist": 2.126,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 4.0
+        },
+        "passed": true
+      }
+    }
+  },
+  "history": [
+    {
+      "step": 15000,
+      "elapsed_sec": 23.52,
+      "energy_mse": 3.1399,
+      "accepted_count": 14843,
+      "acceptance_rate": 0.9895,
+      "stats5": [
+        54.26327324000002,
+        47.83225282000009,
+        16.76514204000001,
+        26.935403490000006,
+        -0.06447184999999993
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": false,
+      "reason_codes": [
+        "GEOMETRY_OUTER_RING_FAILED"
+      ]
+    },
+    {
+      "step": 30000,
+      "elapsed_sec": 35.87,
+      "energy_mse": 1.2098,
+      "accepted_count": 29618,
+      "acceptance_rate": 0.9873,
+      "stats5": [
+        54.26327323999999,
+        47.83225282,
+        16.76514204000001,
+        26.935403490000013,
+        -0.06447184999999996
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": true,
+      "reason_codes": []
+    },
+    {
+      "step": 45000,
+      "elapsed_sec": 46.46,
+      "energy_mse": 0.687,
+      "accepted_count": 44248,
+      "acceptance_rate": 0.9833,
+      "stats5": [
+        54.263273240000046,
+        47.83225282000007,
+        16.76514203999999,
+        26.935403490000024,
+        -0.06447185000000007
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": true,
+      "reason_codes": []
+    },
+    {
+      "step": 60000,
+      "elapsed_sec": 57.41,
+      "energy_mse": 0.1994,
+      "accepted_count": 58530,
+      "acceptance_rate": 0.9755,
+      "stats5": [
+        54.26327324000005,
+        47.832252820000065,
+        16.76514204,
+        26.935403489999995,
+        -0.06447185000000007
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": true,
+      "reason_codes": []
+    }
+  ]
+}
