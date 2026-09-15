@@ -1,0 +1,24 @@
+
+test_01_valid_snapshot_is_positive_control (test_flash01_audit_contract.TestFlash01AuditContract.test_01_valid_snapshot_is_positive_control) ... ok
+test_02_missing_id_column_is_not_synthesized (test_flash01_audit_contract.TestFlash01AuditContract.test_02_missing_id_column_is_not_synthesized) ... ok
+test_03_fractional_ids_are_not_truncated (test_flash01_audit_contract.TestFlash01AuditContract.test_03_fractional_ids_are_not_truncated) ... ok
+test_04_duplicate_and_reordered_ids_fail (test_flash01_audit_contract.TestFlash01AuditContract.test_04_duplicate_and_reordered_ids_fail) ... ok
+test_05_wrong_expected_n_fails_snapshot (test_flash01_audit_contract.TestFlash01AuditContract.test_05_wrong_expected_n_fails_snapshot) ... ok
+test_06_empty_and_malformed_csv_fail_without_crash (test_flash01_audit_contract.TestFlash01AuditContract.test_06_empty_and_malformed_csv_fail_without_crash) ... ok
+test_07_nan_and_inf_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_07_nan_and_inf_are_rejected) ... ok
+test_08_bounds_and_stat_signature_are_independent_checks (test_flash01_audit_contract.TestFlash01AuditContract.test_08_bounds_and_stat_signature_are_independent_checks) ... ok
+test_09_valid_files_are_not_full_trajectory_proof (test_flash01_audit_contract.TestFlash01AuditContract.test_09_valid_files_are_not_full_trajectory_proof) ... ok
+test_10_expected_n_mismatch_is_a_hard_failure (test_flash01_audit_contract.TestFlash01AuditContract.test_10_expected_n_mismatch_is_a_hard_failure) ... ok
+test_11_frame0_is_required (test_flash01_audit_contract.TestFlash01AuditContract.test_11_frame0_is_required) ... ok
+test_12_true_terminal_frame_is_required (test_flash01_audit_contract.TestFlash01AuditContract.test_12_true_terminal_frame_is_required) ... ok
+test_13_metrics_are_parsed_not_just_found (test_flash01_audit_contract.TestFlash01AuditContract.test_13_metrics_are_parsed_not_just_found) ... ok
+test_14_metrics_n_controls_audit_when_argument_is_omitted (test_flash01_audit_contract.TestFlash01AuditContract.test_14_metrics_n_controls_audit_when_argument_is_omitted) ... ok
+test_15_empty_corrupt_and_still_gif_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_15_empty_corrupt_and_still_gif_are_rejected) ... ok
+test_16_sibling_animation_does_not_satisfy_local_media (test_flash01_audit_contract.TestFlash01AuditContract.test_16_sibling_animation_does_not_satisfy_local_media) ... ok
+test_17_empty_run_fails (test_flash01_audit_contract.TestFlash01AuditContract.test_17_empty_run_fails) ... ok
+test_18_geometry_failure_is_not_overwritten (test_flash01_audit_contract.TestFlash01AuditContract.test_18_geometry_failure_is_not_overwritten) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.914s
+
+OK

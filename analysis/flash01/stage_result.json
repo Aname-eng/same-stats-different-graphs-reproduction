@@ -1,0 +1,28 @@
+﻿{
+  "task_id": "SSDG_FLASH_01_AUDIT_CONTRACT_20260915",
+  "starting_commit": "a536835cec4f7f8e17f324d4dce29c087e39e4a8",
+  "modified_files": [
+    "src/independent_verifier.py"
+  ],
+  "tests_command": "python -m unittest discover -s review_tests -p test_flash01_audit_contract.py -v",
+  "tests_run": 18,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "test_exit_code": 0,
+  "stage_status": "READY_FOR_REVIEW",
+  "project_task_pass": false,
+  "pending_items": [
+    "真实原图几何核验与有序笔画闭合曲线缺口算法 (Stage 02)",
+    "完整事件重放与动画轨迹绑定 (Stage 03)",
+    "自动选 N 正式入口统一接入 (Stage 03)",
+    "真实多种子同口径方法比较与报告生成 (Stage 04)"
+  ],
+  "evidence_paths": {
+    "tests_before_log": "analysis/flash01/tests_before.log",
+    "tests_after_log": "analysis/flash01/tests_after.log",
+    "existing_run_audit": "analysis/flash01/existing_run_audit.json",
+    "stage_result": "analysis/flash01/stage_result.json",
+    "checkpoint": "analysis/flash01/checkpoint.md"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "output\\repair_v2\\seed_42": {
+    "run_directory": "output\\repair_v2\\seed_42",
+    "git_commit_sha": "a536835cec4f7f8e17f324d4dce29c087e39e4a8",
+    "n_points": 568,
+    "total_frames": 5,
+    "input_contract_pass": true,
+    "snapshot_invariants_pass": true,
+    "media_valid": true,
+    "invariants_pass": true,
+    "frame0_invariants_pass": true,
+    "frame0_geometry_pass": false,
+    "trajectory_invariants_pass": false,
+    "trajectory_audit_status": "NOT_AUDITED",
+    "final_geometry_pass": true,
+    "deliverables_complete": false,
+    "task_pass": false,
+    "reason_codes": [
+      "TRAJECTORY_NOT_AUDITED"
+    ],
+    "final_geometry_details": {
+      "outer_ring": {
+        "mean_dist": 0.772,
+        "p95_dist": 2.707,
+        "max_dist": 3.624,
+        "coverage_ratio": 0.933,
+        "max_gap_length": 2.633,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.85,
+          "max_gap_length": 6.0
+        },
+        "passed": true
+      },
+      "inner_ring": {
+        "mean_dist": 0.653,
+        "p95_dist": 1.252,
+        "max_dist": 1.663,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.2,
+          "max_p95_dist": 3.8,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 6.0
+        },
+        "passed": true
+      },
+      "octagram": {
+        "mean_dist": 0.39,
+        "p95_dist": 0.783,
+        "max_dist": 0.95,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.2,
+          "max_p95_dist": 3.8,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 5.0
+        },
+        "passed": true
+      },
+      "stroke_nan": {
+        "mean_dist": 0.823,
+        "p95_dist": 2.122,
+        "max_dist": 3.43,
+        "coverage_ratio": 0.965,
+        "max_gap_length": 0.75,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 4.0
+        },
+        "passed": true
+      },
+      "stroke_kai": {
+        "mean_dist": 1.01,
+        "p95_dist": 2.602,
+        "max_dist": 3.744,
+        "coverage_ratio": 0.937,
+        "max_gap_length": 0.25,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 4.0
+        },
+        "passed": true
+      }
+    },
+    "initial_frame": {
+      "file": "output\\repair_v2\\seed_42\\snapshots\\frame_000000.csv",
+      "point_count": 568,
+      "expected_n": 568,
+      "count_ok": true,
+      "ids_identical": true,
+      "ids_unique": true,
+      "in_bounds_0_100": true,
+      "bounds": {
+        "x_min": 21.96261781502828,
+        "x_max": 98.69221320696572,
+        "y_min": 2.7848160304890826,
+        "y_max": 99.76166095294408
+      },
+      "stats5_ddof1": [
+        54.263273240000046,
+        47.83225281999999,
+        16.76514204000002,
+        26.935403489999985,
+        -0.06447184999999993
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "invariants_pass": true,
+      "reason_codes": []
+    },
+    "final_frame": {
+      "file": "output\\repair_v2\\seed_42\\snapshots\\frame_060000.csv",
+      "point_count": 568,
+      "expected_n": 568,
+      "count_ok": true,
+      "ids_identical": true,
+      "ids_unique": true,
+      "in_bounds_0_100": true,
+      "bounds": {
+        "x_min": 12.41233560568732,
+        "x_max": 96.16231385258844,
+        "y_min": 5.683968850353338,
+        "y_max": 89.87358355927861
+      },
+      "stats5_ddof1": [
+        54.263273239999954,
+        47.832252819999994,
+        16.765142040000022,
+        26.935403489999988,
+        -0.06447185000000007
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "invariants_pass": true,
+      "reason_codes": []
+    }
+  }
+}

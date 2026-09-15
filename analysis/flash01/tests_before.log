@@ -1,0 +1,447 @@
+﻿python : test_01_valid_snapshot_is_positive_control (test_flash01_audit_contract.TestFlash01AuditContract.test_01_valid
+_snapshot_is_positive_control) ... ok
+At line:1 char:1
++ python -m unittest discover -s review_tests -p test_flash01_audit_con ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_01_valid_s...control) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_02_missing_id_column_is_not_synthesized (test_flash01_audit_contract.TestFlash01AuditContract.test_02_missing_id_c
+olumn_is_not_synthesized) ... ERROR
+test_03_fractional_ids_are_not_truncated (test_flash01_audit_contract.TestFlash01AuditContract.test_03_fractional_ids_a
+re_not_truncated) ... FAIL
+test_04_duplicate_and_reordered_ids_fail (test_flash01_audit_contract.TestFlash01AuditContract.test_04_duplicate_and_re
+ordered_ids_fail) ... 
+  test_04_duplicate_and_reordered_ids_fail (test_flash01_audit_contract.TestFlash01AuditContract.test_04_duplicate_and_
+reordered_ids_fail) (reason='POINT_ID_DUPLICATE') ... ERROR
+  test_04_duplicate_and_reordered_ids_fail (test_flash01_audit_contract.TestFlash01AuditContract.test_04_duplicate_and_
+reordered_ids_fail) (reason='POINT_ID_ORDER_MISMATCH') ... ERROR
+test_05_wrong_expected_n_fails_snapshot (test_flash01_audit_contract.TestFlash01AuditContract.test_05_wrong_expected_n_
+fails_snapshot) ... ERROR
+test_06_empty_and_malformed_csv_fail_without_crash (test_flash01_audit_contract.TestFlash01AuditContract.test_06_empty_
+and_malformed_csv_fail_without_crash) ... 
+  test_06_empty_and_malformed_csv_fail_without_crash (test_flash01_audit_contract.TestFlash01AuditContract.test_06_empt
+y_and_malformed_csv_fail_without_crash) (text='') ... ERROR
+  test_06_empty_and_malformed_csv_fail_without_crash (test_flash01_audit_contract.TestFlash01AuditContract.test_06_empt
+y_and_malformed_csv_fail_without_crash) (text='point_id,x,y\n') ... ERROR
+  test_06_empty_and_malformed_csv_fail_without_crash (test_flash01_audit_contract.TestFlash01AuditContract.test_06_empt
+y_and_malformed_csv_fail_without_crash) (text='point_id,x\n1000,54.26\n') ... ERROR
+test_07_nan_and_inf_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_07_nan_and_inf_are_rejected
+) ... 
+  test_07_nan_and_inf_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_07_nan_and_inf_are_reject
+ed) (value=nan) ... ERROR
+  test_07_nan_and_inf_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_07_nan_and_inf_are_reject
+ed) (value=inf) ... ERROR
+  test_07_nan_and_inf_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_07_nan_and_inf_are_reject
+ed) (value=-inf) ... ERROR
+test_08_bounds_and_stat_signature_are_independent_checks (test_flash01_audit_contract.TestFlash01AuditContract.test_08_
+bounds_and_stat_signature_are_independent_checks) ... 
+  test_08_bounds_and_stat_signature_are_independent_checks (test_flash01_audit_contract.TestFlash01AuditContract.test_0
+8_bounds_and_stat_signature_are_independent_checks) (reason='COORDINATES_OUT_OF_BOUNDS') ... ERROR
+  test_08_bounds_and_stat_signature_are_independent_checks (test_flash01_audit_contract.TestFlash01AuditContract.test_0
+8_bounds_and_stat_signature_are_independent_checks) (reason='STAT_SIGNATURE_MISMATCH') ... ERROR
+test_09_valid_files_are_not_full_trajectory_proof (test_flash01_audit_contract.TestFlash01AuditContract.test_09_valid_f
+iles_are_not_full_trajectory_proof) ... ERROR
+test_10_expected_n_mismatch_is_a_hard_failure (test_flash01_audit_contract.TestFlash01AuditContract.test_10_expected_n_
+mismatch_is_a_hard_failure) ... ERROR
+test_11_frame0_is_required (test_flash01_audit_contract.TestFlash01AuditContract.test_11_frame0_is_required) ... ERROR
+test_12_true_terminal_frame_is_required (test_flash01_audit_contract.TestFlash01AuditContract.test_12_true_terminal_fra
+me_is_required) ... ERROR
+test_13_metrics_are_parsed_not_just_found (test_flash01_audit_contract.TestFlash01AuditContract.test_13_metrics_are_par
+sed_not_just_found) ... 
+  test_13_metrics_are_parsed_not_just_found (test_flash01_audit_contract.TestFlash01AuditContract.test_13_metrics_are_p
+arsed_not_just_found) (text='{') ... ERROR
+  test_13_metrics_are_parsed_not_just_found (test_flash01_audit_contract.TestFlash01AuditContract.test_13_metrics_are_p
+arsed_not_just_found) (text='{}') ... ERROR
+  test_13_metrics_are_parsed_not_just_found (test_flash01_audit_contract.TestFlash01AuditContract.test_13_metrics_are_p
+arsed_not_just_found) (text='{"n_points": 0, "total_steps": 2}') ... ERROR
+test_14_metrics_n_controls_audit_when_argument_is_omitted (test_flash01_audit_contract.TestFlash01AuditContract.test_14
+_metrics_n_controls_audit_when_argument_is_omitted) ... ERROR
+test_15_empty_corrupt_and_still_gif_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_15_empty_co
+rrupt_and_still_gif_are_rejected) ... 
+  test_15_empty_corrupt_and_still_gif_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_15_empty_
+corrupt_and_still_gif_are_rejected) (content=b'') ... ERROR
+  test_15_empty_corrupt_and_still_gif_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_15_empty_
+corrupt_and_still_gif_are_rejected) (content=b'not a gif') ... ERROR
+test_15_empty_corrupt_and_still_gif_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_15_empty_co
+rrupt_and_still_gif_are_rejected) ... ERROR
+test_16_sibling_animation_does_not_satisfy_local_media (test_flash01_audit_contract.TestFlash01AuditContract.test_16_si
+bling_animation_does_not_satisfy_local_media) ... ERROR
+test_17_empty_run_fails (test_flash01_audit_contract.TestFlash01AuditContract.test_17_empty_run_fails) ... ERROR
+test_18_geometry_failure_is_not_overwritten (test_flash01_audit_contract.TestFlash01AuditContract.test_18_geometry_fail
+ure_is_not_overwritten) ... ERROR
+
+======================================================================
+ERROR: test_02_missing_id_column_is_not_synthesized (test_flash01_audit_contract.TestFlash01AuditContract.test_02_missi
+ng_id_column_is_not_synthesized)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 98,
+ in test_02_missing_id_column_is_not_synthesized
+    self.assert_reason(r, "SNAPSHOT_COLUMNS_MISSING")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 86,
+ in assert_reason
+    self.assertIn(reason, result["reason_codes"])
+                          ~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'reason_codes'
+
+======================================================================
+ERROR: test_04_duplicate_and_reordered_ids_fail (test_flash01_audit_contract.TestFlash01AuditContract.test_04_duplicate
+_and_reordered_ids_fail) (reason='POINT_ID_DUPLICATE')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 115
+, in test_04_duplicate_and_reordered_ids_fail
+    self.assert_reason(r, code)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 86,
+ in assert_reason
+    self.assertIn(reason, result["reason_codes"])
+                          ~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'reason_codes'
+
+======================================================================
+ERROR: test_04_duplicate_and_reordered_ids_fail (test_flash01_audit_contract.TestFlash01AuditContract.test_04_duplicate
+_and_reordered_ids_fail) (reason='POINT_ID_ORDER_MISMATCH')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 115
+, in test_04_duplicate_and_reordered_ids_fail
+    self.assert_reason(r, code)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 86,
+ in assert_reason
+    self.assertIn(reason, result["reason_codes"])
+                          ~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'reason_codes'
+
+======================================================================
+ERROR: test_05_wrong_expected_n_fails_snapshot (test_flash01_audit_contract.TestFlash01AuditContract.test_05_wrong_expe
+cted_n_fails_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 120
+, in test_05_wrong_expected_n_fails_snapshot
+    self.assert_reason(r, "POINT_COUNT_MISMATCH_EXPECTED")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 86,
+ in assert_reason
+    self.assertIn(reason, result["reason_codes"])
+                          ~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'reason_codes'
+
+======================================================================
+ERROR: test_06_empty_and_malformed_csv_fail_without_crash (test_flash01_audit_contract.TestFlash01AuditContract.test_06
+_empty_and_malformed_csv_fail_without_crash) (text='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 128
+, in test_06_empty_and_malformed_csv_fail_without_crash
+    r = audit_snapshot_invariants(path, self.n, self.ids)
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\src\independent_verifier.py", line 25, in audit_snapsh
+ot_invariants
+    df = pd.read_csv(csv_path)
+  File "C:\Users\david\AppData\Roaming\Python\Python314\site-packages\pandas\io\parsers\readers.py", line 1026, in read
+_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\david\AppData\Roaming\Python\Python314\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\david\AppData\Roaming\Python\Python314\site-packages\pandas\io\parsers\readers.py", line 1620, in __in
+it__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\david\AppData\Roaming\Python\Python314\site-packages\pandas\io\parsers\readers.py", line 1898, in _mak
+e_engine
+    return mapping[engine](f, **self.options)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\david\AppData\Roaming\Python\Python314\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, 
+in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "pandas/_libs/parsers.pyx", line 581, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+
+======================================================================
+ERROR: test_06_empty_and_malformed_csv_fail_without_crash (test_flash01_audit_contract.TestFlash01AuditContract.test_06
+_empty_and_malformed_csv_fail_without_crash) (text='point_id,x,y\n')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 128
+, in test_06_empty_and_malformed_csv_fail_without_crash
+    r = audit_snapshot_invariants(path, self.n, self.ids)
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\src\independent_verifier.py", line 49, in audit_snapsh
+ot_invariants
+    s5_ddof1 = stats5(pts, ddof=1)
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\src\stats_audit.py", line 33, in stats5
+    p = check_points(points)
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\src\stats_audit.py", line 27, in check_points
+    raise ValueError("points must have shape (N, 2), with N >= 3")
+ValueError: points must have shape (N, 2), with N >= 3
+
+======================================================================
+ERROR: test_06_empty_and_malformed_csv_fail_without_crash (test_flash01_audit_contract.TestFlash01AuditContract.test_06
+_empty_and_malformed_csv_fail_without_crash) (text='point_id,x\n1000,54.26\n')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 128
+, in test_06_empty_and_malformed_csv_fail_without_crash
+    r = audit_snapshot_invariants(path, self.n, self.ids)
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\src\independent_verifier.py", line 26, in audit_snapsh
+ot_invariants
+    pts = df[["x", "y"]].to_numpy(float)
+          ~~^^^^^^^^^^^^
+  File "C:\Users\david\AppData\Roaming\Python\Python314\site-packages\pandas\core\frame.py", line 4119, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\david\AppData\Roaming\Python\Python314\site-packages\pandas\core\indexes\base.py", line 6212, in _get_
+indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\david\AppData\Roaming\Python\Python314\site-packages\pandas\core\indexes\base.py", line 6264, in _rais
+e_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['y'] not in index"
+
+======================================================================
+ERROR: test_07_nan_and_inf_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_07_nan_and_inf_are_r
+ejected) (value=nan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 139
+, in test_07_nan_and_inf_are_rejected
+    self.assert_reason(r, "COORDINATES_NONFINITE")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 86,
+ in assert_reason
+    self.assertIn(reason, result["reason_codes"])
+                          ~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'reason_codes'
+
+======================================================================
+ERROR: test_07_nan_and_inf_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_07_nan_and_inf_are_r
+ejected) (value=inf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 139
+, in test_07_nan_and_inf_are_rejected
+    self.assert_reason(r, "COORDINATES_NONFINITE")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 86,
+ in assert_reason
+    self.assertIn(reason, result["reason_codes"])
+                          ~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'reason_codes'
+
+======================================================================
+ERROR: test_07_nan_and_inf_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_07_nan_and_inf_are_r
+ejected) (value=-inf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 139
+, in test_07_nan_and_inf_are_rejected
+    self.assert_reason(r, "COORDINATES_NONFINITE")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 86,
+ in assert_reason
+    self.assertIn(reason, result["reason_codes"])
+                          ~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'reason_codes'
+
+======================================================================
+ERROR: test_08_bounds_and_stat_signature_are_independent_checks (test_flash01_audit_contract.TestFlash01AuditContract.t
+est_08_bounds_and_stat_signature_are_independent_checks) (reason='COORDINATES_OUT_OF_BOUNDS')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 150
+, in test_08_bounds_and_stat_signature_are_independent_checks
+    self.assert_reason(r, code)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 86,
+ in assert_reason
+    self.assertIn(reason, result["reason_codes"])
+                          ~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'reason_codes'
+
+======================================================================
+ERROR: test_08_bounds_and_stat_signature_are_independent_checks (test_flash01_audit_contract.TestFlash01AuditContract.t
+est_08_bounds_and_stat_signature_are_independent_checks) (reason='STAT_SIGNATURE_MISMATCH')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 150
+, in test_08_bounds_and_stat_signature_are_independent_checks
+    self.assert_reason(r, code)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 86,
+ in assert_reason
+    self.assertIn(reason, result["reason_codes"])
+                          ~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'reason_codes'
+
+======================================================================
+ERROR: test_09_valid_files_are_not_full_trajectory_proof (test_flash01_audit_contract.TestFlash01AuditContract.test_09_
+valid_files_are_not_full_trajectory_proof)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 154
+, in test_09_valid_files_are_not_full_trajectory_proof
+    self.assertTrue(r["input_contract_pass"])
+                    ~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'input_contract_pass'
+
+======================================================================
+ERROR: test_10_expected_n_mismatch_is_a_hard_failure (test_flash01_audit_contract.TestFlash01AuditContract.test_10_expe
+cted_n_mismatch_is_a_hard_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 164
+, in test_10_expected_n_mismatch_is_a_hard_failure
+    self.assertFalse(r["input_contract_pass"])
+                     ~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'input_contract_pass'
+
+======================================================================
+ERROR: test_11_frame0_is_required (test_flash01_audit_contract.TestFlash01AuditContract.test_11_frame0_is_required)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 173
+, in test_11_frame0_is_required
+    self.assertFalse(r["input_contract_pass"])
+                     ~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'input_contract_pass'
+
+======================================================================
+ERROR: test_12_true_terminal_frame_is_required (test_flash01_audit_contract.TestFlash01AuditContract.test_12_true_termi
+nal_frame_is_required)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 180
+, in test_12_true_terminal_frame_is_required
+    self.assertFalse(r["input_contract_pass"])
+                     ~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'input_contract_pass'
+
+======================================================================
+ERROR: test_13_metrics_are_parsed_not_just_found (test_flash01_audit_contract.TestFlash01AuditContract.test_13_metrics_
+are_parsed_not_just_found) (text='{')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 189
+, in test_13_metrics_are_parsed_not_just_found
+    self.assertFalse(r["input_contract_pass"])
+                     ~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'input_contract_pass'
+
+======================================================================
+ERROR: test_13_metrics_are_parsed_not_just_found (test_flash01_audit_contract.TestFlash01AuditContract.test_13_metrics_
+are_parsed_not_just_found) (text='{}')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 189
+, in test_13_metrics_are_parsed_not_just_found
+    self.assertFalse(r["input_contract_pass"])
+                     ~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'input_contract_pass'
+
+======================================================================
+ERROR: test_13_metrics_are_parsed_not_just_found (test_flash01_audit_contract.TestFlash01AuditContract.test_13_metrics_
+are_parsed_not_just_found) (text='{"n_points": 0, "total_steps": 2}')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 189
+, in test_13_metrics_are_parsed_not_just_found
+    self.assertFalse(r["input_contract_pass"])
+                     ~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'input_contract_pass'
+
+======================================================================
+ERROR: test_14_metrics_n_controls_audit_when_argument_is_omitted (test_flash01_audit_contract.TestFlash01AuditContract.
+test_14_metrics_n_controls_audit_when_argument_is_omitted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 196
+, in test_14_metrics_n_controls_audit_when_argument_is_omitted
+    self.assertFalse(r["input_contract_pass"])
+                     ~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'input_contract_pass'
+
+======================================================================
+ERROR: test_15_empty_corrupt_and_still_gif_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_15_e
+mpty_corrupt_and_still_gif_are_rejected) (content=b'')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 206
+, in test_15_empty_corrupt_and_still_gif_are_rejected
+    self.assertFalse(r["media_valid"])
+                     ~^^^^^^^^^^^^^^^
+KeyError: 'media_valid'
+
+======================================================================
+ERROR: test_15_empty_corrupt_and_still_gif_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_15_e
+mpty_corrupt_and_still_gif_are_rejected) (content=b'not a gif')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 206
+, in test_15_empty_corrupt_and_still_gif_are_rejected
+    self.assertFalse(r["media_valid"])
+                     ~^^^^^^^^^^^^^^^
+KeyError: 'media_valid'
+
+======================================================================
+ERROR: test_15_empty_corrupt_and_still_gif_are_rejected (test_flash01_audit_contract.TestFlash01AuditContract.test_15_e
+mpty_corrupt_and_still_gif_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 210
+, in test_15_empty_corrupt_and_still_gif_are_rejected
+    self.assertFalse(r["media_valid"])
+                     ~^^^^^^^^^^^^^^^
+KeyError: 'media_valid'
+
+======================================================================
+ERROR: test_16_sibling_animation_does_not_satisfy_local_media (test_flash01_audit_contract.TestFlash01AuditContract.tes
+t_16_sibling_animation_does_not_satisfy_local_media)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 218
+, in test_16_sibling_animation_does_not_satisfy_local_media
+    self.assertFalse(r["media_valid"])
+                     ~^^^^^^^^^^^^^^^
+KeyError: 'media_valid'
+
+======================================================================
+ERROR: test_17_empty_run_fails (test_flash01_audit_contract.TestFlash01AuditContract.test_17_empty_run_fails)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 223
+, in test_17_empty_run_fails
+    self.assertFalse(r["input_contract_pass"])
+                     ~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'input_contract_pass'
+
+======================================================================
+ERROR: test_18_geometry_failure_is_not_overwritten (test_flash01_audit_contract.TestFlash01AuditContract.test_18_geomet
+ry_failure_is_not_overwritten)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 230
+, in test_18_geometry_failure_is_not_overwritten
+    self.assertTrue(r["snapshot_invariants_pass"])
+                    ~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'snapshot_invariants_pass'
+
+======================================================================
+FAIL: test_03_fractional_ids_are_not_truncated (test_flash01_audit_contract.TestFlash01AuditContract.test_03_fractional
+_ids_are_not_truncated)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\�γ�\���ݿ��ӻ�\same-stats-different-graphs-reproduction\review_tests\test_flash01_audit_contract.py", line 104
+, in test_03_fractional_ids_are_not_truncated
+    self.assertFalse(r["invariants_pass"])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.707s
+
+FAILED (failures=1, errors=26)
