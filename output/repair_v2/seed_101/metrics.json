@@ -1,0 +1,219 @@
+{
+  "random_seed": 101,
+  "n_points": 568,
+  "total_steps": 60000,
+  "total_time_seconds": 14.63,
+  "final_energy_mse": 0.0867,
+  "best_energy_mse": 0.0816,
+  "final_stats5": [
+    54.26327324000002,
+    47.83225281999995,
+    16.765142040000026,
+    26.93540348999999,
+    -0.06447185000000014
+  ],
+  "final_signature2": [
+    "54.26",
+    "47.83",
+    "16.77",
+    "26.94",
+    "-0.06"
+  ],
+  "matches_ref_signature": true,
+  "accepted_proposals": 57498,
+  "overall_acceptance_rate": 0.9583,
+  "stagnation_events": [
+    {
+      "step": 27000,
+      "cause": "Relative improvement -0.2187 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    },
+    {
+      "step": 33000,
+      "cause": "Relative improvement -0.1241 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    },
+    {
+      "step": 39000,
+      "cause": "Relative improvement -0.1656 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    },
+    {
+      "step": 45000,
+      "cause": "Relative improvement -0.0239 < 0.005 over 3000 steps",
+      "action": "reassign + boost angle + soft reheat"
+    }
+  ],
+  "final_geometry_evaluation": {
+    "final_geometry_pass": true,
+    "reason_codes": [],
+    "layer_evaluations": {
+      "outer_ring": {
+        "mean_dist": 0.812,
+        "p95_dist": 2.679,
+        "max_dist": 3.783,
+        "coverage_ratio": 0.937,
+        "max_gap_length": 2.633,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.85,
+          "max_gap_length": 6.0
+        },
+        "passed": true
+      },
+      "inner_ring": {
+        "mean_dist": 0.68,
+        "p95_dist": 1.299,
+        "max_dist": 1.67,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.2,
+          "max_p95_dist": 3.8,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 6.0
+        },
+        "passed": true
+      },
+      "octagram": {
+        "mean_dist": 0.427,
+        "p95_dist": 0.793,
+        "max_dist": 1.098,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.2,
+          "max_p95_dist": 3.8,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 5.0
+        },
+        "passed": true
+      },
+      "stroke_nan": {
+        "mean_dist": 0.867,
+        "p95_dist": 2.12,
+        "max_dist": 3.325,
+        "coverage_ratio": 0.981,
+        "max_gap_length": 0.75,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 4.0
+        },
+        "passed": true
+      },
+      "stroke_kai": {
+        "mean_dist": 1.005,
+        "p95_dist": 2.465,
+        "max_dist": 3.486,
+        "coverage_ratio": 0.954,
+        "max_gap_length": 0.25,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 4.0
+        },
+        "passed": true
+      }
+    }
+  },
+  "history": [
+    {
+      "step": 15000,
+      "elapsed_sec": 3.84,
+      "energy_mse": 1.3424,
+      "accepted_count": 14660,
+      "acceptance_rate": 0.9773,
+      "stats5": [
+        54.26327324000004,
+        47.832252819999994,
+        16.76514204000001,
+        26.935403489999988,
+        -0.0644718500000001
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": true,
+      "reason_codes": []
+    },
+    {
+      "step": 30000,
+      "elapsed_sec": 7.27,
+      "energy_mse": 0.6705,
+      "accepted_count": 29167,
+      "acceptance_rate": 0.9722,
+      "stats5": [
+        54.26327323999998,
+        47.83225281999999,
+        16.76514204000001,
+        26.935403489999995,
+        -0.06447185000000007
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": false,
+      "reason_codes": [
+        "GEOMETRY_OUTER_RING_FAILED"
+      ]
+    },
+    {
+      "step": 45000,
+      "elapsed_sec": 10.73,
+      "energy_mse": 0.3756,
+      "accepted_count": 43506,
+      "acceptance_rate": 0.9668,
+      "stats5": [
+        54.263273240000004,
+        47.832252820000036,
+        16.76514204000001,
+        26.935403489999977,
+        -0.06447185
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": true,
+      "reason_codes": []
+    },
+    {
+      "step": 60000,
+      "elapsed_sec": 14.31,
+      "energy_mse": 0.0867,
+      "accepted_count": 57498,
+      "acceptance_rate": 0.9583,
+      "stats5": [
+        54.26327324000002,
+        47.83225281999995,
+        16.765142040000026,
+        26.93540348999999,
+        -0.06447185000000014
+      ],
+      "signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "final_geometry_pass": true,
+      "reason_codes": []
+    }
+  ]
+}

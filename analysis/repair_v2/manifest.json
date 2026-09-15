@@ -1,0 +1,54 @@
+{
+  "task_id": "SSDG_REPAIR_V2_20260915",
+  "environment": {
+    "python_version": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "win32"
+  },
+  "git": {
+    "commit_sha": "0d82279d111cb0a753e13d2e24f35370c3235e9d",
+    "branch": "feature/gemini-fixed-n-evolution",
+    "is_dirty": true
+  },
+  "parameters": {
+    "n": 568,
+    "reference_signature": [
+      "54.26",
+      "47.83",
+      "16.77",
+      "26.94",
+      "-0.06"
+    ],
+    "seeds": [
+      42,
+      101,
+      20260915
+    ],
+    "budget_steps": 60000,
+    "reassign_interval": 400,
+    "stagnation_window": 3000
+  },
+  "file_hashes_sha256": {
+    "seed_568.csv": "6cfe3c2da3149633132a0a19fc7e570e7386f67afc48134c96597b0882a2ac21",
+    "dino.csv": "FILE_NOT_FOUND",
+    "prompt.md": "39d10a4168b1b99072d96758ff49a3520aa177826a7af078c6adbfb0a24a84a0",
+    "src/geometry_ground_truth.py": "285dfcb0ecd0e49dfe3bf74f0947fb822b82864cb1ed8d071303eafdefcb8e42",
+    "src/independent_verifier.py": "3206e900e47bdc7014bbba3b943eae8307f71f95e91cee19eb523944c6149a2e",
+    "src/target_emblem_v2.py": "092803200e67e0f70704a2baa0698d0616563753d57f0d023b23a98e9a851259",
+    "src/planner_v2.py": "d1eb62b1417ab445e25fbe5fa917dcb3740d33efc7b1cbe8277413380b97a90e",
+    "src/nankai_optimizer_v2.py": "f7b862a2098770a1f45caaf0a817e756905d25df30eea9fa4b5a1024ca6af596",
+    "src/animation_renderer.py": "819a9d70013d76d406fc6d30507c764e6c1a1928bb1ce41d9e14f768ad02069b",
+    "src/compare_methods_v2.py": "b0c23c2d37141d128efe9b4bc4d5e5030a26287c9cabe9ea918374192e751d10",
+    "tests/test_verifier_negative.py": "044b865c72ee56ebd4443b8a848ee8e51e63f7109518f8071e7bb1888e28982e",
+    "targets/repair_v2/target_slots_N568.csv": "4ffda509f1f43d690b655430e03a623f2e78ddc8c90eed4708c31b9c1cb5d548",
+    "targets/repair_v2/target_slots_N568_diagnostics.json": "617a5d7af524c7587f8a9477abc8103751e18c2274bbe31ee137557dc52d1209",
+    "analysis/repair_v2/planning_v2.json": "ceee3519dbe7fb20e17de9e4440c0c990df86f4d7758c36daa29119f363f53f1",
+    "analysis/repair_v2/independent_audit_report.json": "c292a6ee9caf569815b489f6e5140fd564f7c7a5659517387fe7c80effe60fdf",
+    "analysis/repair_v2/method_comparison_report.json": "8314ab2cbc37c161401660e9ded0384f90f3397c122c485e80564d7049f842df",
+    "analysis/repair_v2/v2_evolution_comparison_grid.png": "8892401b60eef10bf36d43ca910955d39af4797b037f6c5173d107b3179dd423",
+    "output/repair_v2/seed_42/evolution_pure_scatter.gif": "1a223ca3fd222d04bb9e971e192b27fd15a0dddaaf38bfb3c4f445ca1f3fa3ae",
+    "output/repair_v2/seed_42/animation_audit.json": "39cbdead97ca39962cb1485d0caff8bbe4bc6eb43d473261196964a80282cc5b",
+    "output/repair_v2/seed_42/metrics.json": "9e394006dfb5c3ac51faf1890000527e61cebf5a2535510983788fcd2d533491",
+    "output/repair_v2/seed_101/metrics.json": "938c3191686b60a84848d0a003acafc1f3842cc749d3186844a77941de60a208",
+    "output/repair_v2/seed_20260915/metrics.json": "aef3ba5ba0a668ffcfb3b50e9140c89969ef0cc84b21662d407c5c4c5fcd4414"
+  }
+}

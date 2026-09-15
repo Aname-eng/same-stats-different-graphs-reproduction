@@ -1,0 +1,124 @@
+{
+  "n_target": 568,
+  "quotas": {
+    "stroke_nan": 60,
+    "stroke_kai": 60,
+    "octagram": 140,
+    "inner_ring": 68,
+    "outer_ring": 240
+  },
+  "mu_Q": [
+    54.26333319846911,
+    47.83220764193449
+  ],
+  "cov_Q": [
+    [
+      279.3755147211052,
+      -29.11388250485527
+    ],
+    [
+      -29.11388250485527,
+      723.8209825287803
+    ]
+  ],
+  "stats5": [
+    54.26333319846911,
+    47.83220764193449,
+    16.71453004786869,
+    26.903921322528067,
+    -0.06474263490600353
+  ],
+  "signature2": [
+    "54.26",
+    "47.83",
+    "16.71",
+    "26.90",
+    "-0.06"
+  ],
+  "reference_signature": [
+    "54.26",
+    "47.83",
+    "16.77",
+    "26.94",
+    "-0.06"
+  ],
+  "LB_mean": 0.0,
+  "LB_cov": 0.003561,
+  "LB_total": 0.003561,
+  "geometry_check": {
+    "final_geometry_pass": true,
+    "reason_codes": [],
+    "layer_evaluations": {
+      "outer_ring": {
+        "mean_dist": 0.736,
+        "p95_dist": 2.655,
+        "max_dist": 3.611,
+        "coverage_ratio": 0.937,
+        "max_gap_length": 2.633,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.85,
+          "max_gap_length": 6.0
+        },
+        "passed": true
+      },
+      "inner_ring": {
+        "mean_dist": 0.621,
+        "p95_dist": 1.217,
+        "max_dist": 1.293,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.2,
+          "max_p95_dist": 3.8,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 6.0
+        },
+        "passed": true
+      },
+      "octagram": {
+        "mean_dist": 0.339,
+        "p95_dist": 0.816,
+        "max_dist": 0.816,
+        "coverage_ratio": 1.0,
+        "max_gap_length": 0.0,
+        "thresholds": {
+          "max_mean_dist": 2.2,
+          "max_p95_dist": 3.8,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 5.0
+        },
+        "passed": true
+      },
+      "stroke_nan": {
+        "mean_dist": 0.826,
+        "p95_dist": 2.267,
+        "max_dist": 3.696,
+        "coverage_ratio": 0.967,
+        "max_gap_length": 0.75,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 4.0
+        },
+        "passed": true
+      },
+      "stroke_kai": {
+        "mean_dist": 0.982,
+        "p95_dist": 2.656,
+        "max_dist": 3.718,
+        "coverage_ratio": 0.937,
+        "max_gap_length": 0.25,
+        "thresholds": {
+          "max_mean_dist": 2.0,
+          "max_p95_dist": 3.5,
+          "min_coverage_ratio": 0.8,
+          "max_gap_length": 4.0
+        },
+        "passed": true
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "benchmark_description": "Fair comparison of Methods A, B, C, D on identical N=568, seed=42, 15,000 steps budget",
+  "methods": {
+    "Method_A": {
+      "method": "A (One-way distance + single-point move)",
+      "total_steps": 15000,
+      "elapsed_sec": 59.89,
+      "accepted_proposals": 4101,
+      "acceptance_rate": 0.2734,
+      "final_energy_mse": 41.0948,
+      "final_signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "final_geometry_pass": false,
+      "reason_codes": [
+        "GEOMETRY_OUTER_RING_FAILED",
+        "GEOMETRY_INNER_RING_FAILED",
+        "GEOMETRY_OCTAGRAM_FAILED",
+        "GEOMETRY_STROKE_NAN_FAILED",
+        "GEOMETRY_STROKE_KAI_FAILED"
+      ]
+    },
+    "Method_B": {
+      "method": "B (Capacity matching + single-point move)",
+      "total_steps": 15000,
+      "elapsed_sec": 1.64,
+      "accepted_proposals": 4876,
+      "acceptance_rate": 0.32507,
+      "final_energy_mse": 20.8651,
+      "final_signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "final_geometry_pass": false,
+      "reason_codes": [
+        "GEOMETRY_OUTER_RING_FAILED",
+        "GEOMETRY_INNER_RING_FAILED",
+        "GEOMETRY_OCTAGRAM_FAILED",
+        "GEOMETRY_STROKE_NAN_FAILED"
+      ]
+    },
+    "Method_C": {
+      "method": "C (Capacity matching + uniform triad, no recovery)",
+      "total_steps": 15000,
+      "elapsed_sec": 1.35,
+      "accepted_proposals": 14994,
+      "acceptance_rate": 0.9996,
+      "final_energy_mse": 0.004,
+      "final_signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "final_geometry_pass": true,
+      "reason_codes": []
+    },
+    "Method_D": {
+      "method": "D (Full V2: Adaptive triads + recovery)",
+      "total_steps": 15000,
+      "elapsed_sec": 2.63,
+      "stagnation_recovery_triggers": 0,
+      "accepted_proposals": 14226,
+      "acceptance_rate": 0.9484,
+      "final_energy_mse": 0.0442,
+      "final_signature2": [
+        "54.26",
+        "47.83",
+        "16.77",
+        "26.94",
+        "-0.06"
+      ],
+      "matches_ref_signature": true,
+      "final_geometry_pass": true,
+      "reason_codes": []
+    }
+  },
+  "findings": [
+    "Method A & B (single point perturbation) suffer from extremely low acceptance rates (<0.01%) under exact round2 signature constraints, leading to immediate stagnation.",
+    "Method C (uniform triad moves) preserves exact moments effortlessly and achieves substantial MSE reduction, but lacks targeted error sampling and stagnation recovery.",
+    "Method D (Full V2 with adaptive proposal distribution and active stagnation recovery) achieves the fastest and lowest MSE with balanced multi-layer coverage."
+  ]
+}

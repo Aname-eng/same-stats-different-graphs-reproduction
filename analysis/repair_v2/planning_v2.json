@@ -1,0 +1,333 @@
+{
+  "planning_version": "2.1.0-repaired-v2",
+  "reference_signature": [
+    "54.26",
+    "47.83",
+    "16.77",
+    "26.94",
+    "-0.06"
+  ],
+  "status": "QUALIFIED",
+  "planning_pass": true,
+  "candidates_evaluated": [
+    {
+      "n": 142,
+      "status": "GEOMETRY_FAILED",
+      "passed_all": false,
+      "quotas": {
+        "stroke_nan": 15,
+        "stroke_kai": 15,
+        "octagram": 35,
+        "inner_ring": 17,
+        "outer_ring": 60
+      },
+      "target_lb_total": 0.006923,
+      "mini_opt_summary": {
+        "steps": 12000,
+        "elapsed_sec": 1.12,
+        "accepted_moves": 9951,
+        "acceptance_rate": 0.8293,
+        "final_mse": 0.0113
+      },
+      "geometry_evaluation": {
+        "final_geometry_pass": false,
+        "reason_codes": [
+          "GEOMETRY_OUTER_RING_FAILED",
+          "GEOMETRY_INNER_RING_FAILED",
+          "GEOMETRY_STROKE_NAN_FAILED",
+          "GEOMETRY_STROKE_KAI_FAILED"
+        ],
+        "layer_evaluations": {
+          "outer_ring": {
+            "mean_dist": 3.638,
+            "p95_dist": 14.381,
+            "max_dist": 15.324,
+            "coverage_ratio": 0.63,
+            "max_gap_length": 31.592,
+            "thresholds": {
+              "max_mean_dist": 2.0,
+              "max_p95_dist": 3.5,
+              "min_coverage_ratio": 0.85,
+              "max_gap_length": 6.0
+            },
+            "passed": false
+          },
+          "inner_ring": {
+            "mean_dist": 2.27,
+            "p95_dist": 4.652,
+            "max_dist": 5.171,
+            "coverage_ratio": 0.588,
+            "max_gap_length": 5.718,
+            "thresholds": {
+              "max_mean_dist": 2.2,
+              "max_p95_dist": 3.8,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 6.0
+            },
+            "passed": false
+          },
+          "octagram": {
+            "mean_dist": 1.389,
+            "p95_dist": 2.695,
+            "max_dist": 2.938,
+            "coverage_ratio": 0.923,
+            "max_gap_length": 1.224,
+            "thresholds": {
+              "max_mean_dist": 2.2,
+              "max_p95_dist": 3.8,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 5.0
+            },
+            "passed": true
+          },
+          "stroke_nan": {
+            "mean_dist": 2.201,
+            "p95_dist": 4.938,
+            "max_dist": 6.381,
+            "coverage_ratio": 0.63,
+            "max_gap_length": 1.75,
+            "thresholds": {
+              "max_mean_dist": 2.0,
+              "max_p95_dist": 3.5,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 4.0
+            },
+            "passed": false
+          },
+          "stroke_kai": {
+            "mean_dist": 2.357,
+            "p95_dist": 4.812,
+            "max_dist": 6.207,
+            "coverage_ratio": 0.525,
+            "max_gap_length": 3.5,
+            "thresholds": {
+              "max_mean_dist": 2.0,
+              "max_p95_dist": 3.5,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 4.0
+            },
+            "passed": false
+          }
+        }
+      },
+      "reason_codes": [
+        "GEOMETRY_OUTER_RING_FAILED",
+        "GEOMETRY_INNER_RING_FAILED",
+        "GEOMETRY_STROKE_NAN_FAILED",
+        "GEOMETRY_STROKE_KAI_FAILED"
+      ],
+      "eval_time_sec": 1.27
+    },
+    {
+      "n": 284,
+      "status": "GEOMETRY_FAILED",
+      "passed_all": false,
+      "quotas": {
+        "stroke_nan": 30,
+        "stroke_kai": 30,
+        "octagram": 70,
+        "inner_ring": 34,
+        "outer_ring": 120
+      },
+      "target_lb_total": 0.001061,
+      "mini_opt_summary": {
+        "steps": 12000,
+        "elapsed_sec": 1.44,
+        "accepted_moves": 10219,
+        "acceptance_rate": 0.8516,
+        "final_mse": 0.0308
+      },
+      "geometry_evaluation": {
+        "final_geometry_pass": false,
+        "reason_codes": [
+          "GEOMETRY_OUTER_RING_FAILED",
+          "GEOMETRY_STROKE_NAN_FAILED"
+        ],
+        "layer_evaluations": {
+          "outer_ring": {
+            "mean_dist": 1.49,
+            "p95_dist": 5.525,
+            "max_dist": 7.407,
+            "coverage_ratio": 0.807,
+            "max_gap_length": 10.531,
+            "thresholds": {
+              "max_mean_dist": 2.0,
+              "max_p95_dist": 3.5,
+              "min_coverage_ratio": 0.85,
+              "max_gap_length": 6.0
+            },
+            "passed": false
+          },
+          "inner_ring": {
+            "mean_dist": 1.206,
+            "p95_dist": 2.411,
+            "max_dist": 2.72,
+            "coverage_ratio": 0.978,
+            "max_gap_length": 0.44,
+            "thresholds": {
+              "max_mean_dist": 2.2,
+              "max_p95_dist": 3.8,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 6.0
+            },
+            "passed": true
+          },
+          "octagram": {
+            "mean_dist": 0.716,
+            "p95_dist": 1.318,
+            "max_dist": 1.674,
+            "coverage_ratio": 1.0,
+            "max_gap_length": 0.0,
+            "thresholds": {
+              "max_mean_dist": 2.2,
+              "max_p95_dist": 3.8,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 5.0
+            },
+            "passed": true
+          },
+          "stroke_nan": {
+            "mean_dist": 1.505,
+            "p95_dist": 3.507,
+            "max_dist": 5.575,
+            "coverage_ratio": 0.84,
+            "max_gap_length": 1.0,
+            "thresholds": {
+              "max_mean_dist": 2.0,
+              "max_p95_dist": 3.5,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 4.0
+            },
+            "passed": false
+          },
+          "stroke_kai": {
+            "mean_dist": 1.36,
+            "p95_dist": 3.096,
+            "max_dist": 4.189,
+            "coverage_ratio": 0.869,
+            "max_gap_length": 0.75,
+            "thresholds": {
+              "max_mean_dist": 2.0,
+              "max_p95_dist": 3.5,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 4.0
+            },
+            "passed": true
+          }
+        }
+      },
+      "reason_codes": [
+        "GEOMETRY_OUTER_RING_FAILED",
+        "GEOMETRY_STROKE_NAN_FAILED"
+      ],
+      "eval_time_sec": 1.74
+    },
+    {
+      "n": 568,
+      "status": "QUALIFIED",
+      "passed_all": true,
+      "quotas": {
+        "stroke_nan": 60,
+        "stroke_kai": 60,
+        "octagram": 140,
+        "inner_ring": 68,
+        "outer_ring": 240
+      },
+      "target_lb_total": 0.003561,
+      "mini_opt_summary": {
+        "steps": 12000,
+        "elapsed_sec": 1.74,
+        "accepted_moves": 10515,
+        "acceptance_rate": 0.8762,
+        "final_mse": 0.2192
+      },
+      "geometry_evaluation": {
+        "final_geometry_pass": true,
+        "reason_codes": [],
+        "layer_evaluations": {
+          "outer_ring": {
+            "mean_dist": 0.913,
+            "p95_dist": 2.771,
+            "max_dist": 4.23,
+            "coverage_ratio": 0.928,
+            "max_gap_length": 3.949,
+            "thresholds": {
+              "max_mean_dist": 2.0,
+              "max_p95_dist": 3.5,
+              "min_coverage_ratio": 0.85,
+              "max_gap_length": 6.0
+            },
+            "passed": true
+          },
+          "inner_ring": {
+            "mean_dist": 0.765,
+            "p95_dist": 1.498,
+            "max_dist": 2.358,
+            "coverage_ratio": 1.0,
+            "max_gap_length": 0.0,
+            "thresholds": {
+              "max_mean_dist": 2.2,
+              "max_p95_dist": 3.8,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 6.0
+            },
+            "passed": true
+          },
+          "octagram": {
+            "mean_dist": 0.501,
+            "p95_dist": 0.959,
+            "max_dist": 1.355,
+            "coverage_ratio": 1.0,
+            "max_gap_length": 0.0,
+            "thresholds": {
+              "max_mean_dist": 2.2,
+              "max_p95_dist": 3.8,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 5.0
+            },
+            "passed": true
+          },
+          "stroke_nan": {
+            "mean_dist": 0.871,
+            "p95_dist": 2.249,
+            "max_dist": 3.533,
+            "coverage_ratio": 0.967,
+            "max_gap_length": 0.75,
+            "thresholds": {
+              "max_mean_dist": 2.0,
+              "max_p95_dist": 3.5,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 4.0
+            },
+            "passed": true
+          },
+          "stroke_kai": {
+            "mean_dist": 1.076,
+            "p95_dist": 2.556,
+            "max_dist": 3.691,
+            "coverage_ratio": 0.942,
+            "max_gap_length": 0.25,
+            "thresholds": {
+              "max_mean_dist": 2.0,
+              "max_p95_dist": 3.5,
+              "min_coverage_ratio": 0.8,
+              "max_gap_length": 4.0
+            },
+            "passed": true
+          }
+        }
+      },
+      "reason_codes": [],
+      "eval_time_sec": 1.93
+    }
+  ],
+  "chosen_n_star": 568,
+  "rationale": "N*=568 is the minimal candidate passing real mini-evolution and full ground truth geometry verification.",
+  "quota_allocation": {
+    "stroke_nan": 60,
+    "stroke_kai": 60,
+    "octagram": 140,
+    "inner_ring": 68,
+    "outer_ring": 240
+  }
+}
